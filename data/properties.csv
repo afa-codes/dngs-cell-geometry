@@ -1,0 +1,10 @@
+code,name,type,square,triangle,hexagon,rationale
+P1a,Exact nesting between levels,objective,1,1,0,"Squares (1:4) and triangles (1:4) partition the parent cell exactly; no hexagonal aperture does."
+P1b,Usable approximate hierarchy,judgment,1,1,0.7,"Hexagonal hierarchies (e.g. H3 aperture 7) cover the parent only approximately but remain usable for indexing."
+P2,Raster alignment,judgment,1,0.2,0.2,"Square cells align with remote-sensing pixels and tiles without resampling."
+P3,Prefix geocode / space-filling curve,judgment,1,0.7,0.5,"Morton/Hilbert interleaving gives codes whose truncation equals moving up one level."
+P4,Uniform neighbourhood,judgment,0.5,0.3,1,"Hexagons have six equidistant neighbours; squares have 4 or 8 at two distances; triangles have three neighbour types."
+P5,Congruent cell orientation,objective,1,0.5,1,"Triangular cells alternate between up and down orientation."
+P6,Compactness (normalised IPQ),objective,0.87,0.67,1,"IPQ = 4*pi*A/P^2: hexagon 0.907, square 0.785, triangle 0.605; normalised to the hexagon."
+P7,Interval subpaving,objective,1,0.4,0.2,"Interval arithmetic operates natively on boxes (Cartesian products of intervals), i.e. quadrilaterals."
+P8,Cartographic legacy compatibility,judgment,1,0.2,0.3,"Map sheets, WMTS tiles and statistical grids (INSPIRE, IBGE) are square."

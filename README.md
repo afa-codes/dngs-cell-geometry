@@ -2,7 +2,7 @@
 
 Assessments and Delphi consultations comparing square (quadtree), triangular
 and hexagonal cells against the applications of a discrete national grid
-system (DNGS).
+system (DNGS) or "[DGGS for Nations](https://git.addressforall.org/DGGS-4N) (DGGS-4N)".
 
 ## Context
 

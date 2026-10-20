@@ -1,0 +1,12 @@
+respondent_id,panel,group,public
+R001,geometry,geodesy-cartography,yes
+R002,geometry,undisclosed,no
+R003,geometry,undisclosed,no
+R004,geometry,undisclosed,no
+R005,geometry,undisclosed,no
+R001,applications,remote-sensing,yes
+R002,applications,undisclosed,no
+R003,applications,undisclosed,no
+R004,applications,undisclosed,no
+R005,applications,undisclosed,no
+R006,applications,remote-sensing,yes

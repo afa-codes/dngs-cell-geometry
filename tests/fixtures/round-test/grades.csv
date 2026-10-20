@@ -1,0 +1,26 @@
+respondent_id,group,property,square,triangle,hexagon,justification
+R001,geodesy-cartography,P1b,,0,1,
+R001,geodesy-cartography,P2,1,1,0,
+R001,geodesy-cartography,P3,0,1,1,
+R001,geodesy-cartography,P4,0.2,1,,Justificativa de teste para P4.
+R001,geodesy-cartography,P8,0.7,0.2,0.2,
+R002,undisclosed,P1b,1,0.5,0.2,
+R002,undisclosed,P2,1,0.5,0,
+R002,undisclosed,P3,1,1,0.5,
+R002,undisclosed,P4,0.7,0.2,0.2,Justificativa de teste para P4.
+R002,undisclosed,P8,0.5,0.5,0.5,
+R003,undisclosed,P1b,,0.7,0.5,
+R003,undisclosed,P2,0.7,0,1,
+R003,undisclosed,P3,0.5,0.5,1,
+R003,undisclosed,P4,0,0.5,0,Justificativa de teste para P4.
+R003,undisclosed,P8,0.5,0.7,0.7,
+R004,undisclosed,P1b,0.7,1,0,
+R004,undisclosed,P2,0.5,0.2,0.7,
+R004,undisclosed,P3,0.7,0.5,,
+R004,undisclosed,P4,1,0.7,,Justificativa de teste para P4.
+R004,undisclosed,P8,0.7,,0.2,
+R005,undisclosed,P1b,0.2,1,0.5,
+R005,undisclosed,P2,0.7,1,0.2,
+R005,undisclosed,P3,1,,0,
+R005,undisclosed,P4,1,0.7,0.7,Justificativa de teste para P4.
+R005,undisclosed,P8,0,0.2,0,

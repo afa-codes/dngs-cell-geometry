@@ -1,0 +1,6 @@
+respondent_id,group,property,square,triangle,hexagon,justification
+R001,computational-geometry,P1b,0.2,1,1,
+R001,computational-geometry,P2,0,,1,
+R001,computational-geometry,P3,0.7,1,0.2,
+R001,computational-geometry,P4,0.2,,0,Justificativa de teste para P4.
+R001,computational-geometry,P8,0,1,0,

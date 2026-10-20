@@ -1,0 +1,176 @@
+class	type/scale	name	relevance	text	help	language	validation	mandatory	other	default	same_default	hidden	equation	multiflexible_min	multiflexible_max	multiflexible_step	input_boxes	exclude_all_others	display_rows	answer_width
+S		sid		100101																
+S		language		pt-BR																
+S		additional_languages		en																
+S		admin		Coordenação DGGS-4N																
+S		adminemail		delphi@example.org																
+S		bounce_email		delphi@example.org																
+S		anonymized		N																
+S		format		G																
+S		datestamp		N																
+S		ipaddr		N																
+S		refurl		N																
+S		savetimings		N																
+S		usecookie		N																
+S		allowregister		N																
+S		allowsave		N																
+S		allowprev		Y																
+S		showprogress		Y																
+S		questionindex		1																
+S		showwelcome		Y																
+S		showxquestions		N																
+S		showgroupinfo		B																
+S		showqnumcode		X																
+S		shownoanswer		Y																
+S		tokenanswerspersistence		Y																
+S		alloweditaftercompletion		Y																
+S		htmlemail		Y																
+S		listpublic		N																
+S		publicstatistics		N																
+S		publicgraphs		N																
+S		printanswers		Y																
+S		attributedescriptions		"{""attribute_1"": {""description"": ""respondent_id"", ""mandatory"": ""Y"", ""encrypted"": ""N"", ""show_register"": ""N"", ""cpdbmap"": """"}, ""attribute_2"": {""description"": ""institution"", ""mandatory"": ""N"", ""encrypted"": ""N"", ""show_register"": ""N"", ""cpdbmap"": """"}}"																
+SL		surveyls_language		pt-BR		pt-BR														
+SL		surveyls_title		Questionário 1 — Propriedades geométricas das formas de célula		pt-BR														
+SL		surveyls_description		<p>Consulta Delphi DGGS-4N · Rodada 01 · Painel de geometria</p>		pt-BR														
+SL		surveyls_welcometext		<p>Você foi convidado(a) a integrar o painel de geometria de uma consulta Delphi sobre a forma das células de grades nacionais discretas (DGGS-4N). Uma grade nacional discreta divide o território em células hierárquicas, identificadas por códigos, e serve de base comum para estatísticas, cadastro, sensoriamento remoto, endereçamento e integração de dados públicos.</p><p>A consulta tem dois painéis. Este, de perfil matemático e computacional, avalia <strong>em que grau cada forma de célula (quadrada, triangular e hexagonal) satisfaz cada propriedade</strong>. O outro painel, formado por usuários de SIG, estatística e áreas afins, avalia quanto cada propriedade importa para cada aplicação. As duas avaliações são combinadas depois.</p><p>As respostas são individuais e permanecem anônimas enquanto a consulta estiver aberta. Ao final de cada rodada, você recebe a mediana e a dispersão das respostas do painel, junto com as justificativas anonimizadas, e pode rever as suas. Discordâncias bem fundamentadas são tão valiosas quanto concordâncias.</p><p>Tempo estimado: 20 a 30 minutos. Suas respostas são salvas a cada página, e você pode retomar o questionário pelo mesmo link.</p><p><strong>Contato da coordenação:</strong> Coordenação DGGS-4N (delphi@example.org)</p>		pt-BR														
+SL		surveyls_endtext		<p>Obrigado pela participação. Você receberá o resumo anonimizado desta rodada e o questionário da rodada 02.</p>		pt-BR														
+SL		surveyls_numberformat		1		pt-BR														
+SL		surveyls_email_invite_subj		Convite: {SURVEYNAME}		pt-BR														
+SL		surveyls_email_invite		<p>Prezado(a) {FIRSTNAME},</p><p>Você foi convidado(a) a participar da consulta Delphi sobre a geometria de célula das grades nacionais discretas (DGGS-4N).</p><p>Seu código pseudônimo nesta consulta é <strong>{ATTRIBUTE_1}</strong>. Ele identifica suas respostas nos dados publicados; seu nome não aparece neles, salvo se você escolher outro nível de divulgação no questionário.</p><p>Para responder, use o link pessoal abaixo, que permite salvar e retomar o questionário:<br>{SURVEYURL}</p><p>Se não quiser participar nem receber lembretes, use este link:<br>{OPTOUTURL}</p><p>Atenciosamente,<br>{ADMINNAME} ({ADMINEMAIL})</p>		pt-BR														
+SL		surveyls_email_remind_subj		Lembrete: {SURVEYNAME}		pt-BR														
+SL		surveyls_email_remind		<p>Prezado(a) {FIRSTNAME},</p><p>Lembramos que a consulta Delphi DGGS-4N continua aberta e que sua participação é muito importante. Seu código pseudônimo é <strong>{ATTRIBUTE_1}</strong>.</p><p>Link pessoal para responder ou continuar:<br>{SURVEYURL}</p><p>Se não quiser participar nem receber lembretes, use este link:<br>{OPTOUTURL}</p><p>Atenciosamente,<br>{ADMINNAME} ({ADMINEMAIL})</p>		pt-BR														
+SL		surveyls_language		en		en														
+SL		surveyls_title		Questionnaire 1 — Geometric properties of cell shapes		en														
+SL		surveyls_description		<p>DGGS-4N Delphi consultation · Round 01 · Geometry panel</p>		en														
+SL		surveyls_welcometext		<p>You have been invited to join the geometry panel of a Delphi consultation on the cell shape of discrete national grids (DGGS-4N). A discrete national grid divides the territory into hierarchical cells identified by codes, and serves as a common basis for statistics, cadastre, remote sensing, addressing and the integration of public data.</p><p>The consultation has two panels. This one, with a mathematical and computational profile, assesses <strong>the degree to which each cell shape (square, triangular and hexagonal) satisfies each property</strong>. The other panel, made up of users of GIS, statistics and related fields, assesses how much each property matters to each application. The two assessments are combined afterwards.</p><p>Answers are individual and remain anonymous while the consultation is open. At the end of each round, you receive the median and dispersion of the panel's answers, together with the anonymised justifications, and may revise your own. Well-founded disagreements are as valuable as agreements.</p><p>Estimated time: 20 to 30 minutes. Your answers are saved on every page, and you can resume the questionnaire from the same link.</p><p><strong>Coordination contact:</strong> Coordenação DGGS-4N (delphi@example.org)</p>		en														
+SL		surveyls_endtext		<p>Thank you for taking part. You will receive the anonymised summary of this round and the questionnaire for round 02.</p>		en														
+SL		surveyls_numberformat		0		en														
+SL		surveyls_email_invite_subj		Invitation: {SURVEYNAME}		en														
+SL		surveyls_email_invite		<p>Dear {FIRSTNAME},</p><p>You are invited to take part in the Delphi consultation on the cell geometry of discrete national grids (DGGS-4N).</p><p>Your pseudonymous code in this consultation is <strong>{ATTRIBUTE_1}</strong>. It identifies your answers in the published data; your name does not appear in them unless you choose another disclosure level in the questionnaire.</p><p>To answer, use the personal link below, which lets you save and resume the questionnaire:<br>{SURVEYURL}</p><p>If you do not wish to take part or receive reminders, use this link:<br>{OPTOUTURL}</p><p>Kind regards,<br>{ADMINNAME} ({ADMINEMAIL})</p>		en														
+SL		surveyls_email_remind_subj		Reminder: {SURVEYNAME}		en														
+SL		surveyls_email_remind		<p>Dear {FIRSTNAME},</p><p>This is a reminder that the DGGS-4N Delphi consultation is still open and that your participation matters. Your pseudonymous code is <strong>{ATTRIBUTE_1}</strong>.</p><p>Personal link to answer or continue:<br>{SURVEYURL}</p><p>If you do not wish to take part or receive reminders, use this link:<br>{OPTOUTURL}</p><p>Kind regards,<br>{ADMINNAME} ({ADMINEMAIL})</p>		en														
+G	1	1A — Perfil e consentimento	1	<p>Enquanto a consulta estiver aberta, suas respostas são identificadas apenas por um código pseudônimo (R001, R002, …) atribuído pela coordenação, e nenhum nome é revelado, nem aos demais painelistas. A correspondência entre código e pessoa, assim como seus dados de contato, fica guardada apenas no banco de dados da consulta, fora do repositório público, pelo tempo necessário à consulta e à publicação de seus resultados, conforme a Lei Geral de Proteção de Dados (Lei 13.709/2018). Quem responder aos dois questionários mantém o mesmo código. Após o fechamento, a divulgação segue o nível que você escolher na pergunta 1A6.</p>		pt-BR														
+Q	*	RID	1	Código do respondente		pt-BR		N	N			1	{TOKEN:ATTRIBUTE_1}							
+Q	L	AREA	1	<strong>1A1. Área de atuação principal</strong>		pt-BR		Y	Y											
+A	0	MAT		Matemática (geometria, topologia, combinatória)		pt-BR														
+A	0	CGE		Geometria computacional ou estruturas de dados espaciais		pt-BR														
+A	0	GEO		Geodésia ou cartografia matemática (projeções, sistemas de referência)		pt-BR														
+A	0	INT		Análise intervalar ou métodos numéricos		pt-BR														
+A	0	CS		Ciência da computação (indexação, bancos de dados, curvas de preenchimento do espaço)		pt-BR														
+Q	L	INST	1	<strong>1A2. Tipo de instituição</strong>		pt-BR		Y	N											
+A	0	UNI		universidade ou instituto de pesquisa		pt-BR														
+A	0	PUB		órgão público		pt-BR														
+A	0	COM		empresa		pt-BR														
+A	0	INT		organismo internacional		pt-BR														
+A	0	OTH		outro		pt-BR														
+Q	L	EXPER	1	<strong>1A3. Anos de experiência na área</strong>		pt-BR		Y	N											
+A	0	E1		menos de 5		pt-BR														
+A	0	E2		5 a 10		pt-BR														
+A	0	E3		11 a 20		pt-BR														
+A	0	E4		mais de 20		pt-BR														
+Q	M	GRIDS	1	<strong>1A4. Familiaridade com grades discretas</strong> (marque todas que se aplicam)		pt-BR		Y	N									NONE		
+SQ		ISO	1	ISO 19170 ou OGC API DGGS		pt-BR														
+SQ		HEX	1	H3, ISEA ou outras grades hexagonais		pt-BR														
+SQ		QUAD	1	S2, quadtrees ou tiles		pt-BR														
+SQ		TRI	1	grades triangulares (QTM, HTM etc.)		pt-BR														
+SQ		SFC	1	curvas de Morton ou Hilbert		pt-BR														
+SQ		NONE	1	nenhuma		pt-BR														
+Q	L	COI	1	<strong>1A5. Conflito de interesses.</strong> Você tem, atualmente ou nos últimos três anos, vínculo com empresa ou instituição fornecedora de soluções baseadas em sistemas de geocódigos e/ou sistemas de grades? Considere emprego, sociedade, consultoria, financiamento ou participação em desenvolvimento.	A declaração é obrigatória. Ela é publicada de forma agregada por área para participantes anônimos e individualmente para os demais.	pt-BR		Y	N											
+A	0	N		Não		pt-BR														
+A	0	Y		Sim		pt-BR														
+Q	T	COIdesc	COI.NAOK == 'Y'	Descreva a natureza do vínculo e a solução envolvida.		pt-BR		Y	N										3	
+Q	L	DISC	1	<strong>1A6. Nível de divulgação após o fechamento da consulta</strong>	Você pode mudar o nível escolhido até o fechamento da consulta. Depois da publicação, nomes e respostas passam a integrar o registro permanente do padrão e não podem ser retirados. Nos níveis nominal e público, são usados o nome e a instituição informados no convite; para corrigi-los, escreva à coordenação. Recortes de resultados por área ou por item só são publicados quando incluem ao menos três respondentes anônimos, para que as respostas destes não possam ser deduzidas por diferença.	pt-BR		Y	N											
+A	0	ANON		<strong>Anônimo.</strong> Apenas minha área de atuação é divulgada.		pt-BR														
+A	0	NAMED		<strong>Nominal.</strong> Meu nome e minha instituição constam da lista pública do painel, mas minhas respostas não são atribuídas a mim.		pt-BR														
+A	0	PUBL		<strong>Público.</strong> Meu nome, minha instituição, minhas respostas e minhas justificativas são publicados individualmente.		pt-BR														
+Q	M	CONS	1	<strong>1A7. Consentimento</strong>		pt-BR		Y	N											
+SQ		ok	1	Li e concordo em participar. Autorizo o uso das minhas respostas e justificativas nos relatórios da consulta, conforme o nível de divulgação escolhido acima.		pt-BR														
+G	2	1B — As formas de célula avaliadas	1			pt-BR														
+Q	X	SHAPES	1	"<table class=""table table-bordered table-condensed""><thead><tr><th>Forma</th><th>Hierarquia considerada</th></tr></thead><tbody><tr><td><strong>Quadrada</strong></td><td>Refinamento binário: o quadrado se divide em dois retângulos 1:2, e cada retângulo em dois quadrados. Equivale a uma quadtree a cada dois níveis.</td></tr><tr><td><strong>Triangular</strong></td><td>Refinamento de abertura 4: cada triângulo se divide em quatro triângulos, com orientações alternadas.</td></tr><tr><td><strong>Hexagonal</strong></td><td>Hierarquias de abertura 3, 4 ou 7, como em H3 e ISEA3H, nas quais os hexágonos-filhos cobrem o pai apenas aproximadamente.</td></tr></tbody></table><p>Considere a grade definida sobre uma projeção plana de área igual, com extensão nacional.</p>"		pt-BR		N	N											
+G	3	1C — Notas nas propriedades de julgamento	1			pt-BR														
+Q	X	GRDdefs	1	"<p>Atribua a cada forma uma nota de <strong>0</strong> (não satisfaz) a <strong>1</strong> (satisfaz plenamente), em passos de 0,1. Deixe em branco o que estiver fora da sua competência. A justificativa é muito útil, sobretudo nas notas extremas.</p><table class=""table table-bordered table-condensed""><thead><tr><th>Código</th><th>Propriedade</th><th>Definição operacional</th></tr></thead><tbody><tr><td>P1b</td><td>Hierarquia aproximada utilizável</td><td>Existe uma relação pai-filho consultável entre níveis, com operações de compactação e expansão, ainda que as bordas não coincidam exatamente.</td></tr><tr><td>P2</td><td>Alinhamento com dados raster</td><td>As células coincidem com pixels e tiles de imagens sem reamostragem.</td></tr><tr><td>P3</td><td>Geocódigo por prefixo</td><td>Truncar o identificador da célula produz exatamente o identificador da célula-mãe, e uma curva de preenchimento do espaço preserva a proximidade.</td></tr><tr><td>P4</td><td>Vizinhança uniforme</td><td>Todas as células vizinhas estão à mesma distância e compartilham uma aresta.</td></tr><tr><td>P8</td><td>Compatibilidade com o legado cartográfico</td><td>As células se articulam com folhas de mapas, tiles de serviços web e grades estatísticas existentes.</td></tr></tbody></table>"		pt-BR		N	N											
+Q	:	GRD	1	<strong>1C1.</strong> Nota de cada forma em cada propriedade (0 a 1)		pt-BR		N	N					0	1	0.1	0			40
+SQ		P1b	1	P1b Hierarquia aproximada utilizável		pt-BR														
+SQ		P2	1	P2 Alinhamento com dados raster		pt-BR														
+SQ		P3	1	P3 Geocódigo por prefixo		pt-BR														
+SQ		P4	1	P4 Vizinhança uniforme		pt-BR														
+SQ		P8	1	P8 Compatibilidade com o legado cartográfico		pt-BR														
+SQ	1	square	1	Quadrada		pt-BR														
+SQ	1	triangle	1	Triangular		pt-BR														
+SQ	1	hexagon	1	Hexagonal		pt-BR														
+Q	Q	GRDj	1	Justificativas (opcionais), por propriedade		pt-BR		N	N											
+SQ		P1b	1	P1b Hierarquia aproximada utilizável		pt-BR														
+SQ		P2	1	P2 Alinhamento com dados raster		pt-BR														
+SQ		P3	1	P3 Geocódigo por prefixo		pt-BR														
+SQ		P4	1	P4 Vizinhança uniforme		pt-BR														
+SQ		P8	1	P8 Compatibilidade com o legado cartográfico		pt-BR														
+G	4	1D — Propriedades objetivas	1			pt-BR														
+Q	X	OBJtab	1	"<p>As notas abaixo decorrem de demonstração geométrica ou de cálculo e, por isso, não são postas em votação. Podem, no entanto, ser revistas diante de evidência. Se discordar de alguma, registre a objeção com a demonstração, o contraexemplo ou a referência que a sustenta.</p><table class=""table table-bordered table-condensed""><thead><tr><th>Código</th><th>Propriedade</th><th>Quadrada</th><th>Triangular</th><th>Hexagonal</th><th>Fundamento</th></tr></thead><tbody><tr><td>P1a</td><td>Aninhamento exato entre níveis</td><td>1</td><td>1</td><td>0</td><td>Nenhuma abertura particiona exatamente um hexágono em hexágonos menores.</td></tr><tr><td>P5</td><td>Orientação congruente</td><td>1</td><td>0,5</td><td>1</td><td>Triângulos alternam orientação; quadrados e hexágonos são congruentes por translação.</td></tr><tr><td>P6</td><td>Compacidade</td><td>0,87</td><td>0,67</td><td>1</td><td>IPQ = 4πA/P²: hexágono 0,907, quadrado 0,785, triângulo 0,605. Notas normalizadas ao hexágono.</td></tr><tr><td>P7</td><td>Subpavimentação intervalar</td><td>1</td><td>0,4</td><td>0,2</td><td>A aritmética intervalar opera nativamente sobre caixas, isto é, produtos de intervalos.</td></tr></tbody></table>"		pt-BR		N	N											
+Q	T	OBJ	1	<strong>1D1. Objeções, com evidência</strong>		pt-BR		N	N										6	
+G	5	1E — Definições e novas propriedades	1			pt-BR														
+Q	T	DEFS	1	<strong>1E1. Alguma definição das partes 1C ou 1D é ambígua, imprecisa ou mistura duas propriedades distintas?</strong> Proponha a redação que considera correta.		pt-BR		N	N										6	
+Q	T	NEWP	1	<strong>1E2. Que propriedades geométricas ou computacionais relevantes faltam?</strong> Para cada uma, informe nome, definição operacional, se é objetiva ou de julgamento, e a nota que atribuiria a cada forma. <strong>Propriedades que favoreçam células hexagonais ou triangulares são expressamente bem-vindas.</strong>		pt-BR		N	N										6	
+Q	T	COMM	1	<strong>1E3. Outros comentários, inclusive sobre possíveis vieses na concepção desta consulta</strong>		pt-BR		N	N										6	
+G	1	1A — Profile and consent	1	<p>While the consultation is open, your answers are identified only by a pseudonymous code (R001, R002, …) assigned by the coordination, and no name is disclosed, not even to the other panellists. The mapping between codes and people, as well as your contact details, is kept only in the consultation database, outside the public repository, for as long as necessary to run the consultation and publish its results, in accordance with the Brazilian General Data Protection Law (LGPD, Law 13.709/2018). Those who answer both questionnaires keep the same code. After closure, disclosure follows the level you choose in question 1A6.</p>		en														
+Q	*	RID	1	Respondent code		en		N	N			1	{TOKEN:ATTRIBUTE_1}							
+Q	L	AREA	1	<strong>1A1. Main field of work</strong>		en		Y	Y											
+A	0	MAT		Mathematics (geometry, topology, combinatorics)		en														
+A	0	CGE		Computational geometry or spatial data structures		en														
+A	0	GEO		Geodesy or mathematical cartography (projections, reference systems)		en														
+A	0	INT		Interval analysis or numerical methods		en														
+A	0	CS		Computer science (indexing, databases, space-filling curves)		en														
+Q	L	INST	1	<strong>1A2. Type of institution</strong>		en		Y	N											
+A	0	UNI		university or research institute		en														
+A	0	PUB		public agency		en														
+A	0	COM		company		en														
+A	0	INT		international organisation		en														
+A	0	OTH		other		en														
+Q	L	EXPER	1	<strong>1A3. Years of experience in the field</strong>		en		Y	N											
+A	0	E1		less than 5		en														
+A	0	E2		5 to 10		en														
+A	0	E3		11 to 20		en														
+A	0	E4		more than 20		en														
+Q	M	GRIDS	1	<strong>1A4. Familiarity with discrete grids</strong> (tick all that apply)		en		Y	N									NONE		
+SQ		ISO	1	ISO 19170 or OGC API DGGS		en														
+SQ		HEX	1	H3, ISEA or other hexagonal grids		en														
+SQ		QUAD	1	S2, quadtrees or tiles		en														
+SQ		TRI	1	triangular grids (QTM, HTM etc.)		en														
+SQ		SFC	1	Morton or Hilbert curves		en														
+SQ		NONE	1	none		en														
+Q	L	COI	1	<strong>1A5. Conflict of interest.</strong> Do you have, currently or in the last three years, any link with a company or institution that supplies solutions based on geocode systems and/or grid systems? Consider employment, partnership or ownership, consultancy, funding or participation in development.	This declaration is mandatory. It is published in aggregate by field of work for anonymous participants and individually for the others.	en		Y	N											
+A	0	N		No		en														
+A	0	Y		Yes		en														
+Q	T	COIdesc	COI.NAOK == 'Y'	Describe the nature of the link and the solution involved.		en		Y	N										3	
+Q	L	DISC	1	<strong>1A6. Disclosure level after the consultation closes</strong>	You may change the chosen level until the consultation closes. Once published, names and answers become part of the permanent record of the standard and cannot be withdrawn. For the named and public levels, the name and institution given in the invitation are used; to correct them, write to the coordination. Breakdowns of results by field of work or by item are published only when they include at least three anonymous respondents, so that their answers cannot be deduced by subtraction.	en		Y	N											
+A	0	ANON		<strong>Anonymous.</strong> Only my field of work is disclosed.		en														
+A	0	NAMED		<strong>Named.</strong> My name and institution appear in the public list of the panel, but my answers are not attributed to me.		en														
+A	0	PUBL		<strong>Public.</strong> My name, institution, answers and justifications are published individually.		en														
+Q	M	CONS	1	<strong>1A7. Consent</strong>		en		Y	N											
+SQ		ok	1	I have read and agree to take part. I authorise the use of my answers and justifications in the reports of the consultation, according to the disclosure level chosen above.		en														
+G	2	1B — The cell shapes assessed	1			en														
+Q	X	SHAPES	1	"<table class=""table table-bordered table-condensed""><thead><tr><th>Shape</th><th>Hierarchy considered</th></tr></thead><tbody><tr><td><strong>Square</strong></td><td>Binary refinement: the square splits into two 1:2 rectangles, and each rectangle into two squares. Equivalent to a quadtree every two levels.</td></tr><tr><td><strong>Triangular</strong></td><td>Aperture-4 refinement: each triangle splits into four triangles, with alternating orientations.</td></tr><tr><td><strong>Hexagonal</strong></td><td>Aperture 3, 4 or 7 hierarchies, as in H3 and ISEA3H, in which the child hexagons cover the parent only approximately.</td></tr></tbody></table><p>Consider the grid defined on an equal-area planar projection, with national extent.</p>"		en		N	N											
+G	3	1C — Grades on the judgment properties	1			en														
+Q	X	GRDdefs	1	"<p>Give each shape a grade from <strong>0</strong> (not satisfied) to <strong>1</strong> (fully satisfied), in steps of 0.1. Leave blank anything outside your competence. Justifications are very useful, especially for extreme grades.</p><table class=""table table-bordered table-condensed""><thead><tr><th>Code</th><th>Property</th><th>Operational definition</th></tr></thead><tbody><tr><td>P1b</td><td>Usable approximate hierarchy</td><td>There is a queryable parent-child relation between levels, with compact and uncompact operations, even if the edges do not coincide exactly.</td></tr><tr><td>P2</td><td>Raster alignment</td><td>Cells coincide with image pixels and tiles without resampling.</td></tr><tr><td>P3</td><td>Prefix geocode</td><td>Truncating a cell identifier yields exactly the identifier of the parent cell, and a space-filling curve preserves proximity.</td></tr><tr><td>P4</td><td>Uniform neighbourhood</td><td>All neighbouring cells are at the same distance and share an edge.</td></tr><tr><td>P8</td><td>Compatibility with the cartographic legacy</td><td>Cells fit with map sheets, web service tiles and existing statistical grids.</td></tr></tbody></table>"		en		N	N											
+Q	:	GRD	1	<strong>1C1.</strong> Grade of each shape on each property (0 to 1)		en		N	N					0	1	0.1	0			40
+SQ		P1b	1	P1b Usable approximate hierarchy		en														
+SQ		P2	1	P2 Raster alignment		en														
+SQ		P3	1	P3 Prefix geocode		en														
+SQ		P4	1	P4 Uniform neighbourhood		en														
+SQ		P8	1	P8 Compatibility with the cartographic legacy		en														
+SQ	1	square	1	Square		en														
+SQ	1	triangle	1	Triangular		en														
+SQ	1	hexagon	1	Hexagonal		en														
+Q	Q	GRDj	1	Justifications (optional), by property		en		N	N											
+SQ		P1b	1	P1b Usable approximate hierarchy		en														
+SQ		P2	1	P2 Raster alignment		en														
+SQ		P3	1	P3 Prefix geocode		en														
+SQ		P4	1	P4 Uniform neighbourhood		en														
+SQ		P8	1	P8 Compatibility with the cartographic legacy		en														
+G	4	1D — Objective properties	1			en														
+Q	X	OBJtab	1	"<p>The grades below follow from geometric proof or calculation and are therefore not put to a vote. They may, however, be revised in the light of evidence. If you disagree with any of them, record the objection with the proof, counterexample or reference that supports it.</p><table class=""table table-bordered table-condensed""><thead><tr><th>Code</th><th>Property</th><th>Square</th><th>Triangular</th><th>Hexagonal</th><th>Basis</th></tr></thead><tbody><tr><td>P1a</td><td>Exact nesting between levels</td><td>1</td><td>1</td><td>0</td><td>No aperture partitions a hexagon exactly into smaller hexagons.</td></tr><tr><td>P5</td><td>Congruent orientation</td><td>1</td><td>0.5</td><td>1</td><td>Triangles alternate orientation; squares and hexagons are congruent under translation.</td></tr><tr><td>P6</td><td>Compactness</td><td>0.87</td><td>0.67</td><td>1</td><td>IPQ = 4πA/P²: hexagon 0.907, square 0.785, triangle 0.605. Grades normalised to the hexagon.</td></tr><tr><td>P7</td><td>Interval subpaving</td><td>1</td><td>0.4</td><td>0.2</td><td>Interval arithmetic operates natively on boxes, that is, Cartesian products of intervals.</td></tr></tbody></table>"		en		N	N											
+Q	T	OBJ	1	<strong>1D1. Objections, with evidence</strong>		en		N	N										6	
+G	5	1E — Definitions and new properties	1			en														
+Q	T	DEFS	1	<strong>1E1. Is any definition in parts 1C or 1D ambiguous, imprecise, or does it conflate two distinct properties?</strong> Propose the wording you consider correct.		en		N	N										6	
+Q	T	NEWP	1	<strong>1E2. Which relevant geometric or computational properties are missing?</strong> For each, give its name, an operational definition, whether it is objective or a matter of judgment, and the grade you would give each shape. <strong>Properties that favour hexagonal or triangular cells are explicitly welcome.</strong>		en		N	N										6	
+Q	T	COMM	1	<strong>1E3. Other comments, including on possible biases in the design of this consultation</strong>		en		N	N										6	

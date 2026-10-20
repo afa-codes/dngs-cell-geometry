@@ -1,0 +1,17 @@
+# PostgREST configuration for the DGGS-4N Delphi API (tested with PostgREST 14).
+# Copy outside the repository and fill in the secrets.
+
+db-uri = "postgresql://delphi_authenticator:CHANGE-ME@localhost:5432/limesurvey"
+db-schemas = "api"
+db-anon-role = "delphi_anon"
+
+# At least 32 characters; the same secret signs the coordination's tokens
+# (scripts/postgrest_jwt.py).
+jwt-secret = "CHANGE-ME-TO-A-LONG-RANDOM-SECRET"
+
+server-host = "127.0.0.1"
+server-port = 3000
+
+# Only pages served from the LimeSurvey address may call the API from a browser
+# (feedback in later rounds).
+server-cors-allowed-origins = "https://survey.example.org"

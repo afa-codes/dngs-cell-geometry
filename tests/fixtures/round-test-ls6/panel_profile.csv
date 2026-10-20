@@ -1,0 +1,15 @@
+panel,field,value,count
+applications,coi,no,1
+applications,experience,11-20,1
+applications,grids,HEX,1
+applications,grids,QUAD,1
+applications,institution_type,public-national,1
+applications,public,yes,1
+applications,respondents,total,1
+geometry,coi,yes,1
+geometry,experience,11-20,1
+geometry,grids,HEX,1
+geometry,grids,QUAD,1
+geometry,institution_type,university,1
+geometry,public,yes,1
+geometry,respondents,total,1

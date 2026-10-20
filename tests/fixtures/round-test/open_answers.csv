@@ -1,0 +1,17 @@
+respondent_id,panel,group,item,text
+R001,geometry,geodesy-cartography,1D1,Objeção de teste à nota P7 do triângulo.
+R001,geometry,geodesy-cartography,1E2,Propriedade proposta: isotropia de distâncias (teste).
+R002,geometry,undisclosed,1D1,Objeção de teste à nota P7 do triângulo.
+R002,geometry,undisclosed,1E2,Propriedade proposta: isotropia de distâncias (teste).
+R003,geometry,undisclosed,1D1,Objeção de teste à nota P7 do triângulo.
+R003,geometry,undisclosed,1E2,Propriedade proposta: isotropia de distâncias (teste).
+R004,geometry,undisclosed,1D1,Objeção de teste à nota P7 do triângulo.
+R004,geometry,undisclosed,1E2,Propriedade proposta: isotropia de distâncias (teste).
+R005,geometry,undisclosed,1D1,Objeção de teste à nota P7 do triângulo.
+R005,geometry,undisclosed,1E2,Propriedade proposta: isotropia de distâncias (teste).
+R001,applications,remote-sensing,2E2,Distâncias de cobertura isotrópicas (teste).
+R002,applications,undisclosed,2E2,Distâncias de cobertura isotrópicas (teste).
+R003,applications,undisclosed,2E2,Distâncias de cobertura isotrópicas (teste).
+R004,applications,undisclosed,2E2,Distâncias de cobertura isotrópicas (teste).
+R005,applications,undisclosed,2E2,Distâncias de cobertura isotrópicas (teste).
+R006,applications,remote-sensing,2E2,Distâncias de cobertura isotrópicas (teste).

@@ -75,35 +75,62 @@ rounds.
 
 Summary (full text in `delphi/protocol.md`):
 
-- **Panel:** at least three experts per user group (official statistics,
-  cadastre and registry, remote sensing, addressing and logistics, health and
-  emergency, academia).
-- **Round 01:** relevance of each property per application (0–3), challenges
-  to the filter, and free proposals of new applications and properties,
-  including those favourable to hexagons.
+- **Two panels.** A *geometry panel* (mathematics, computational geometry,
+  geodesy, interval analysis, computer science) grades how far each cell shape
+  satisfies each judgment property (questionnaire 1). An *applications panel*
+  (official statistics, cadastre and registry, remote sensing, addressing and
+  logistics, health and emergency, academia) rates how much each property
+  matters to each application and whether it requires exact nesting
+  (questionnaire 2). Some experts answer both; at least three per group.
+- **Round 01:** grades (0–1) and relevance (0–3), challenges to the filter and
+  to the objective grades, and free proposals of new applications and
+  properties, including those favourable to hexagons.
 - **Round 02:** panellists see the group median and interquartile range and
   may revise their answers.
 - **Round 03:** only items still without consensus.
-- **Consensus:** interquartile range ≤ 1 on the 0–3 scale.
+- **Consensus:** interquartile range ≤ 1 on the 0–3 scale (≤ 1/3 on the 0–1
+  grade scale); for the filter, a majority of at least 75%.
 - **Weighting round:** applications weighted by the institutional relevance of
   their users.
-- **Anonymity:** responses stored under pseudonyms, in line with the LGPD;
-  panel composition published by group only.
+- **Disclosure:** answers are pseudonymous (`R001`, `R002`, …) while a round is
+  open. After closure each panellist's chosen level applies: anonymous, named
+  (name listed, answers not attributed) or public (name and answers). Results
+  are computed for the whole panel and, separately, for public panellists only.
+  A conflict-of-interest declaration is mandatory. Confidential data stay only
+  in the LimeSurvey PostgreSQL database, for as long as necessary, in line
+  with the LGPD; the repository holds pseudonymous data only.
+- **Survey platform:** LimeSurvey (self-hostable, open source); the surveys
+  are generated from this repository and the data are read from its
+  PostgreSQL database through SQL views exposed by PostgREST. Coordinator
+  guide: `delphi/limesurvey/README.md`; database and API: `sql/README.md`.
 
 ## Repository layout
 
     data/
       properties.csv              grades per geometry, type and rationale
       applications.csv            applications and elimination filter
+      i18n/                       names and descriptions in pt-BR and en
     delphi/
       protocol.md
-      questionnaire_template.csv
+      questionnaire_template.csv  format of responses.csv
+      limesurvey/                 survey texts, participant template, guide
       rounds/round-00/            author's baseline weights
+      rounds/round-01/            LimeSurvey surveys; panel data after closure
+    sql/
+      10_core.sql                 schemas, roles, JSONB snapshot of LimeSurvey data
+      20_codes.sql                answer codes (generated)
+      30_api.sql                  views and functions exposed by PostgREST
+      postgrest.conf.example
     scripts/
       common.py                   loaders and scoring
+      survey_schema.py            survey codes shared by the build and the SQL
+      limesurvey_build.py         generates the two surveys and sql/20_codes.sql
+      postgrest_fetch.py          round files and panel list from the API
+      postgrest_jwt.py            signs the coordination's JWT
+      delphi_aggregate.py         medians, IQR, consensus, filter and grades
       compute.py                  per-application scores and summary
-      delphi_aggregate.py         medians, IQR and consensus from responses
       sensitivity.py              Monte Carlo sensitivity of the ranking
+    tests/                        pipeline and database tests on synthetic data
     results/                      generated outputs (do not edit by hand)
 
 Scripts use only the Python standard library (Python 3.8+).
@@ -113,6 +140,17 @@ Scripts use only the Python standard library (Python 3.8+).
     cd scripts
     python compute.py --round round-00
     python sensitivity.py --round round-00 --runs 10000 --k 1
+
+For a Delphi round, after its data are committed (no database needed):
+
+    python delphi_aggregate.py --round round-01
+    python delphi_aggregate.py --round round-01 --subset public
+    python compute.py --round round-01
+    python compute.py --round round-01 --subset public
+    python sensitivity.py --round round-01 --runs 10000 --k 1
+
+Tests: `python -m unittest discover tests` from the repository root; the
+database tests also need `DELPHI_TEST_DSN` (see `tests/test_pipeline.py`).
 
 ## Versioning
 

@@ -1,0 +1,518 @@
+{
+  "pt-BR": {
+    "common": {
+      "deadline": "Prazo de resposta",
+      "contact": "Contato da coordenação",
+      "end": "Obrigado pela participação. Você receberá o resumo anonimizado desta rodada e o questionário da rodada 02.",
+      "rid": "Código do respondente",
+      "geometries": {
+        "square": "Quadrada",
+        "triangle": "Triangular",
+        "hexagon": "Hexagonal"
+      },
+      "coi": {
+        "text": "<strong>{n}. Conflito de interesses.</strong> Você tem, atualmente ou nos últimos três anos, vínculo com empresa ou instituição fornecedora de soluções baseadas em sistemas de geocódigos e/ou sistemas de grades? Considere emprego, sociedade, consultoria, financiamento ou participação em desenvolvimento.",
+        "options": {
+          "N": "Não",
+          "Y": "Sim"
+        },
+        "desc": "Descreva a natureza do vínculo e a solução envolvida."
+      },
+      "disc_note": "Você pode mudar o nível escolhido até o fechamento da consulta. Depois da publicação, nomes e respostas passam a integrar o registro permanente do padrão e não podem ser retirados. Nos níveis nominal e público, são usados o nome e a instituição informados no convite; para corrigi-los, escreva à coordenação.",
+      "cons": {
+        "text": "<strong>{n}. Consentimento</strong>",
+        "option": "Li e concordo em participar. Autorizo o uso das minhas respostas e justificativas nos relatórios da consulta, conforme o nível de divulgação escolhido acima."
+      },
+      "pseudonym": "Enquanto a consulta estiver aberta, suas respostas são identificadas apenas por um código pseudônimo (R001, R002, …) atribuído pela coordenação, e nenhum nome é revelado, nem aos demais painelistas. A correspondência entre código e pessoa, assim como seus dados de contato, fica guardada apenas no banco de dados da consulta, fora do repositório público, pelo tempo necessário à consulta e à publicação de seus resultados, conforme a Lei Geral de Proteção de Dados (Lei 13.709/2018). Quem responder aos dois questionários mantém o mesmo código. Após o fechamento, a divulgação segue o nível que você escolher na pergunta {disc}.",
+      "exp": {
+        "text": "<strong>{n}. Anos de experiência na área</strong>",
+        "options": {
+          "E1": "menos de 5",
+          "E2": "5 a 10",
+          "E3": "11 a 20",
+          "E4": "mais de 20"
+        }
+      },
+      "anonymity": "As respostas são individuais e permanecem anônimas enquanto a consulta estiver aberta. Ao final de cada rodada, você recebe a mediana e a dispersão das respostas do painel, junto com as justificativas anonimizadas, e pode rever as suas. Discordâncias bem fundamentadas são tão valiosas quanto concordâncias.",
+      "optional_comment": "Comentário",
+      "email": {
+        "invite_subj": "Convite: {SURVEYNAME}",
+        "invite": "<p>Prezado(a) {FIRSTNAME},</p><p>Você foi convidado(a) a participar da consulta Delphi sobre a geometria de célula das grades nacionais discretas (DGGS-4N).</p><p>Seu código pseudônimo nesta consulta é <strong>{ATTRIBUTE_1}</strong>. Ele identifica suas respostas nos dados publicados; seu nome não aparece neles, salvo se você escolher outro nível de divulgação no questionário.</p><p>Para responder, use o link pessoal abaixo, que permite salvar e retomar o questionário:<br>{SURVEYURL}</p><p>Se não quiser participar nem receber lembretes, use este link:<br>{OPTOUTURL}</p><p>Atenciosamente,<br>{ADMINNAME} ({ADMINEMAIL})</p>",
+        "remind_subj": "Lembrete: {SURVEYNAME}",
+        "remind": "<p>Prezado(a) {FIRSTNAME},</p><p>Lembramos que a consulta Delphi DGGS-4N continua aberta e que sua participação é muito importante. Seu código pseudônimo é <strong>{ATTRIBUTE_1}</strong>.</p><p>Link pessoal para responder ou continuar:<br>{SURVEYURL}</p><p>Se não quiser participar nem receber lembretes, use este link:<br>{OPTOUTURL}</p><p>Atenciosamente,<br>{ADMINNAME} ({ADMINEMAIL})</p>"
+      }
+    },
+    "q1": {
+      "title": "Questionário 1 — Propriedades geométricas das formas de célula",
+      "subtitle": "Consulta Delphi DGGS-4N · Rodada 01 · Painel de geometria",
+      "intro": [
+        "Você foi convidado(a) a integrar o painel de geometria de uma consulta Delphi sobre a forma das células de grades nacionais discretas (DGGS-4N). Uma grade nacional discreta divide o território em células hierárquicas, identificadas por códigos, e serve de base comum para estatísticas, cadastro, sensoriamento remoto, endereçamento e integração de dados públicos.",
+        "A consulta tem dois painéis. Este, de perfil matemático e computacional, avalia <strong>em que grau cada forma de célula (quadrada, triangular e hexagonal) satisfaz cada propriedade</strong>. O outro painel, formado por usuários de SIG, estatística e áreas afins, avalia quanto cada propriedade importa para cada aplicação. As duas avaliações são combinadas depois.",
+        "{anonymity}",
+        "Tempo estimado: 20 a 30 minutos. Suas respostas são salvas a cada página, e você pode retomar o questionário pelo mesmo link."
+      ],
+      "groups": {
+        "profile": "1A — Perfil e consentimento",
+        "shapes": "1B — As formas de célula avaliadas",
+        "grades": "1C — Notas nas propriedades de julgamento",
+        "objective": "1D — Propriedades objetivas",
+        "defs": "1E — Definições e novas propriedades"
+      },
+      "area": {
+        "text": "<strong>1A1. Área de atuação principal</strong>",
+        "options": {
+          "MAT": "Matemática (geometria, topologia, combinatória)",
+          "CGE": "Geometria computacional ou estruturas de dados espaciais",
+          "GEO": "Geodésia ou cartografia matemática (projeções, sistemas de referência)",
+          "INT": "Análise intervalar ou métodos numéricos",
+          "CS": "Ciência da computação (indexação, bancos de dados, curvas de preenchimento do espaço)"
+        }
+      },
+      "inst": {
+        "text": "<strong>1A2. Tipo de instituição</strong>",
+        "options": {
+          "UNI": "universidade ou instituto de pesquisa",
+          "PUB": "órgão público",
+          "COM": "empresa",
+          "INT": "organismo internacional",
+          "OTH": "outro"
+        }
+      },
+      "grids": {
+        "text": "<strong>1A4. Familiaridade com grades discretas</strong> (marque todas que se aplicam)",
+        "options": {
+          "ISO": "ISO 19170 ou OGC API DGGS",
+          "HEX": "H3, ISEA ou outras grades hexagonais",
+          "QUAD": "S2, quadtrees ou tiles",
+          "TRI": "grades triangulares (QTM, HTM etc.)",
+          "SFC": "curvas de Morton ou Hilbert",
+          "NONE": "nenhuma"
+        }
+      },
+      "coi_help": "A declaração é obrigatória. Ela é publicada de forma agregada por área para participantes anônimos e individualmente para os demais.",
+      "disc": {
+        "text": "<strong>1A6. Nível de divulgação após o fechamento da consulta</strong>",
+        "options": {
+          "ANON": "<strong>Anônimo.</strong> Apenas minha área de atuação é divulgada.",
+          "NAMED": "<strong>Nominal.</strong> Meu nome e minha instituição constam da lista pública do painel, mas minhas respostas não são atribuídas a mim.",
+          "PUBL": "<strong>Público.</strong> Meu nome, minha instituição, minhas respostas e minhas justificativas são publicados individualmente."
+        },
+        "rule": "Recortes de resultados por área ou por item só são publicados quando incluem ao menos três respondentes anônimos, para que as respostas destes não possam ser deduzidas por diferença."
+      },
+      "shapes": {
+        "header": [
+          "Forma",
+          "Hierarquia considerada"
+        ],
+        "rows": {
+          "square": "Refinamento binário: o quadrado se divide em dois retângulos 1:2, e cada retângulo em dois quadrados. Equivale a uma quadtree a cada dois níveis.",
+          "triangle": "Refinamento de abertura 4: cada triângulo se divide em quatro triângulos, com orientações alternadas.",
+          "hexagon": "Hierarquias de abertura 3, 4 ou 7, como em H3 e ISEA3H, nas quais os hexágonos-filhos cobrem o pai apenas aproximadamente."
+        },
+        "note": "Considere a grade definida sobre uma projeção plana de área igual, com extensão nacional."
+      },
+      "grades": {
+        "intro": "Atribua a cada forma uma nota de <strong>0</strong> (não satisfaz) a <strong>1</strong> (satisfaz plenamente), em passos de 0,1. Deixe em branco o que estiver fora da sua competência. A justificativa é muito útil, sobretudo nas notas extremas.",
+        "defs_header": [
+          "Código",
+          "Propriedade",
+          "Definição operacional"
+        ],
+        "matrix": "<strong>1C1.</strong> Nota de cada forma em cada propriedade (0 a 1)",
+        "just": "Justificativas (opcionais), por propriedade"
+      },
+      "objective": {
+        "intro": "As notas abaixo decorrem de demonstração geométrica ou de cálculo e, por isso, não são postas em votação. Podem, no entanto, ser revistas diante de evidência. Se discordar de alguma, registre a objeção com a demonstração, o contraexemplo ou a referência que a sustenta.",
+        "header": [
+          "Código",
+          "Propriedade",
+          "Quadrada",
+          "Triangular",
+          "Hexagonal",
+          "Fundamento"
+        ],
+        "question": "<strong>1D1. Objeções, com evidência</strong>"
+      },
+      "defs": {
+        "e1": "<strong>1E1. Alguma definição das partes 1C ou 1D é ambígua, imprecisa ou mistura duas propriedades distintas?</strong> Proponha a redação que considera correta.",
+        "e2": "<strong>1E2. Que propriedades geométricas ou computacionais relevantes faltam?</strong> Para cada uma, informe nome, definição operacional, se é objetiva ou de julgamento, e a nota que atribuiria a cada forma. <strong>Propriedades que favoreçam células hexagonais ou triangulares são expressamente bem-vindas.</strong>",
+        "e3": "<strong>1E3. Outros comentários, inclusive sobre possíveis vieses na concepção desta consulta</strong>"
+      }
+    },
+    "q2": {
+      "title": "Questionário 2 — Relevância das propriedades para as aplicações",
+      "subtitle": "Consulta Delphi DGGS-4N · Rodada 01 · Painel de aplicações",
+      "intro": [
+        "Você foi convidado(a) a integrar o painel de aplicações de uma consulta Delphi sobre grades nacionais discretas (DGGS-4N). Uma grade nacional discreta divide o território em células hierárquicas, identificadas por códigos. Ela pode servir de base comum para estatísticas oficiais, cadastro, sensoriamento remoto, endereçamento, saúde, logística e integração de dados entre órgãos públicos.",
+        "Neste questionário, pedimos que você julgue <strong>quanto cada propriedade de uma grade importa para cada aplicação</strong>. Não é preciso saber qual forma de célula satisfaz cada propriedade: essa avaliação cabe a outro painel, de perfil matemático. O que se pergunta aqui é o que cada aplicação exige na prática.",
+        "{anonymity}",
+        "Tempo estimado: 30 a 45 minutos. Você pode deixar de responder as aplicações com as quais não tenha familiaridade. Suas respostas são salvas a cada página, e você pode retomar o questionário pelo mesmo link."
+      ],
+      "groups": {
+        "profile": "2A — Perfil e consentimento",
+        "defs": "2B — Definições",
+        "app": "2C · {id} · {name}",
+        "nest": "2D — Exigência de aninhamento exato",
+        "proposals": "2E — Propostas"
+      },
+      "group": {
+        "text": "<strong>2A1. Grupo de atuação principal</strong>",
+        "options": {
+          "OST": "Estatísticas oficiais",
+          "CAD": "Cadastro e registro de imóveis",
+          "RS": "Sensoriamento remoto e monitoramento ambiental",
+          "ADL": "Endereçamento, serviços postais e logística",
+          "HEM": "Vigilância em saúde e serviços de emergência",
+          "ACA": "Academia (SIG, cartografia, infraestrutura de dados espaciais)"
+        }
+      },
+      "inst": {
+        "text": "<strong>2A2. Tipo de instituição</strong>",
+        "options": {
+          "FED": "órgão público federal",
+          "STA": "estadual",
+          "MUN": "municipal",
+          "UNI": "universidade ou instituto de pesquisa",
+          "COM": "empresa",
+          "CSO": "organização da sociedade civil",
+          "INT": "organismo internacional",
+          "OTH": "outro"
+        }
+      },
+      "grids": {
+        "text": "<strong>2A4. Já trabalhou com grades discretas?</strong> (marque todas que se aplicam)",
+        "options": {
+          "STAT": "grades estatísticas (IBGE, INSPIRE etc.)",
+          "HEX": "H3 ou outras grades hexagonais",
+          "QUAD": "S2, quadtrees ou tiles",
+          "GEOC": "geocódigos (Geohash, Plus Codes, DIGIPIN etc.)",
+          "NONE": "não"
+        }
+      },
+      "coi_help": "A declaração é obrigatória. Ela é publicada de forma agregada por grupo para participantes anônimos e individualmente para os demais.",
+      "disc": {
+        "text": "<strong>2A6. Nível de divulgação após o fechamento da consulta</strong>",
+        "options": {
+          "ANON": "<strong>Anônimo.</strong> Apenas meu grupo de atuação é divulgado.",
+          "NAMED": "<strong>Nominal.</strong> Meu nome e minha instituição constam da lista pública do painel, mas minhas respostas não são atribuídas a mim.",
+          "PUBL": "<strong>Público.</strong> Meu nome, minha instituição, minhas respostas e minhas justificativas são publicados individualmente."
+        },
+        "rule": "Recortes de resultados por grupo ou por item só são publicados quando incluem ao menos três respondentes anônimos, para que as respostas destes não possam ser deduzidas por diferença."
+      },
+      "defs": {
+        "scale_title": "Escala de relevância",
+        "scale_header": [
+          "Nota",
+          "Significado"
+        ],
+        "scale": {
+          "R0": "<strong>Irrelevante:</strong> a aplicação funciona igualmente bem sem esta propriedade.",
+          "R1": "<strong>Desejável:</strong> ajuda, mas sua ausência é contornável sem custo significativo.",
+          "R2": "<strong>Importante:</strong> sua ausência impõe custo, retrabalho ou perda de qualidade relevante.",
+          "R3": "<strong>Essencial:</strong> sem ela, a aplicação fica comprometida ou exige outra solução."
+        },
+        "props_title": "Propriedades",
+        "props_header": [
+          "Código",
+          "Propriedade",
+          "O que significa"
+        ],
+        "next": "Nas próximas 14 páginas, uma por aplicação, informe primeiro sua familiaridade com a aplicação. <strong>Se a familiaridade for baixa, avance para a próxima.</strong> Caso contrário, atribua de 0 a 3 a cada propriedade. Comentários são opcionais, mas muito úteis nas notas 0 e 3 e sempre que você discordar da descrição da aplicação."
+      },
+      "app": {
+        "fam": "Sua familiaridade com esta aplicação",
+        "fam_options": {
+          "H": "alta",
+          "M": "média",
+          "L": "baixa (avançar para a próxima aplicação)"
+        },
+        "rel": "Relevância de cada propriedade para esta aplicação",
+        "rel_options": {
+          "R0": "0 · irrelevante",
+          "R1": "1 · desejável",
+          "R2": "2 · importante",
+          "R3": "3 · essencial"
+        },
+        "com": "Comentários (opcionais), por propriedade"
+      },
+      "nest": {
+        "intro": [
+          "Algumas aplicações produzem resultados com efeito jurídico ou contábil, ou dependem de uma chave única. Nelas, uma grade sem aninhamento exato (P1a) pode ser inadmissível, qualquer que seja seu desempenho nos demais critérios.",
+          "Para cada aplicação, indique se ela <strong>exige</strong> aninhamento exato, isto é, se uma hierarquia apenas aproximada a tornaria inviável, e não apenas pior. Aparecem abaixo apenas as aplicações com que você declarou familiaridade alta ou média."
+        ],
+        "question": "A aplicação exige aninhamento exato?",
+        "options": {
+          "Y": "sim",
+          "N": "não",
+          "U": "não sei"
+        },
+        "just": "Justificativas (opcionais), por aplicação"
+      },
+      "proposals": {
+        "intro": "A avaliação só é confiável se representar bem as necessidades de todos os usuários. <strong>Aplicações em que a vizinhança, a distância ou a forma arredondada das células sejam decisivas são expressamente bem-vindas.</strong> As propostas serão submetidas a todo o painel na rodada seguinte.",
+        "e1": "<strong>2E1. Aplicações que faltam.</strong> Para cada uma: nome, breve descrição, usuários institucionais e as propriedades que você considera decisivas.",
+        "e2": "<strong>2E2. Necessidades não cobertas.</strong> Alguma exigência prática das suas aplicações não está representada pelas propriedades P1a a P8? Descreva-a em termos de uso; o painel de geometria a traduzirá em propriedade, se for o caso.",
+        "e3": "<strong>2E3. Alguma aplicação da lista está mal definida, duplicada ou deveria ser dividida?</strong>",
+        "e4": "<strong>2E4. Outros comentários, inclusive sobre possíveis vieses na concepção desta consulta</strong>"
+      }
+    }
+  },
+  "en": {
+    "common": {
+      "deadline": "Deadline",
+      "contact": "Coordination contact",
+      "end": "Thank you for taking part. You will receive the anonymised summary of this round and the questionnaire for round 02.",
+      "rid": "Respondent code",
+      "geometries": {
+        "square": "Square",
+        "triangle": "Triangular",
+        "hexagon": "Hexagonal"
+      },
+      "coi": {
+        "text": "<strong>{n}. Conflict of interest.</strong> Do you have, currently or in the last three years, any link with a company or institution that supplies solutions based on geocode systems and/or grid systems? Consider employment, partnership or ownership, consultancy, funding or participation in development.",
+        "options": {
+          "N": "No",
+          "Y": "Yes"
+        },
+        "desc": "Describe the nature of the link and the solution involved."
+      },
+      "disc_note": "You may change the chosen level until the consultation closes. Once published, names and answers become part of the permanent record of the standard and cannot be withdrawn. For the named and public levels, the name and institution given in the invitation are used; to correct them, write to the coordination.",
+      "cons": {
+        "text": "<strong>{n}. Consent</strong>",
+        "option": "I have read and agree to take part. I authorise the use of my answers and justifications in the reports of the consultation, according to the disclosure level chosen above."
+      },
+      "pseudonym": "While the consultation is open, your answers are identified only by a pseudonymous code (R001, R002, …) assigned by the coordination, and no name is disclosed, not even to the other panellists. The mapping between codes and people, as well as your contact details, is kept only in the consultation database, outside the public repository, for as long as necessary to run the consultation and publish its results, in accordance with the Brazilian General Data Protection Law (LGPD, Law 13.709/2018). Those who answer both questionnaires keep the same code. After closure, disclosure follows the level you choose in question {disc}.",
+      "exp": {
+        "text": "<strong>{n}. Years of experience in the field</strong>",
+        "options": {
+          "E1": "less than 5",
+          "E2": "5 to 10",
+          "E3": "11 to 20",
+          "E4": "more than 20"
+        }
+      },
+      "anonymity": "Answers are individual and remain anonymous while the consultation is open. At the end of each round, you receive the median and dispersion of the panel's answers, together with the anonymised justifications, and may revise your own. Well-founded disagreements are as valuable as agreements.",
+      "optional_comment": "Comment",
+      "email": {
+        "invite_subj": "Invitation: {SURVEYNAME}",
+        "invite": "<p>Dear {FIRSTNAME},</p><p>You are invited to take part in the Delphi consultation on the cell geometry of discrete national grids (DGGS-4N).</p><p>Your pseudonymous code in this consultation is <strong>{ATTRIBUTE_1}</strong>. It identifies your answers in the published data; your name does not appear in them unless you choose another disclosure level in the questionnaire.</p><p>To answer, use the personal link below, which lets you save and resume the questionnaire:<br>{SURVEYURL}</p><p>If you do not wish to take part or receive reminders, use this link:<br>{OPTOUTURL}</p><p>Kind regards,<br>{ADMINNAME} ({ADMINEMAIL})</p>",
+        "remind_subj": "Reminder: {SURVEYNAME}",
+        "remind": "<p>Dear {FIRSTNAME},</p><p>This is a reminder that the DGGS-4N Delphi consultation is still open and that your participation matters. Your pseudonymous code is <strong>{ATTRIBUTE_1}</strong>.</p><p>Personal link to answer or continue:<br>{SURVEYURL}</p><p>If you do not wish to take part or receive reminders, use this link:<br>{OPTOUTURL}</p><p>Kind regards,<br>{ADMINNAME} ({ADMINEMAIL})</p>"
+      }
+    },
+    "q1": {
+      "title": "Questionnaire 1 — Geometric properties of cell shapes",
+      "subtitle": "DGGS-4N Delphi consultation · Round 01 · Geometry panel",
+      "intro": [
+        "You have been invited to join the geometry panel of a Delphi consultation on the cell shape of discrete national grids (DGGS-4N). A discrete national grid divides the territory into hierarchical cells identified by codes, and serves as a common basis for statistics, cadastre, remote sensing, addressing and the integration of public data.",
+        "The consultation has two panels. This one, with a mathematical and computational profile, assesses <strong>the degree to which each cell shape (square, triangular and hexagonal) satisfies each property</strong>. The other panel, made up of users of GIS, statistics and related fields, assesses how much each property matters to each application. The two assessments are combined afterwards.",
+        "{anonymity}",
+        "Estimated time: 20 to 30 minutes. Your answers are saved on every page, and you can resume the questionnaire from the same link."
+      ],
+      "groups": {
+        "profile": "1A — Profile and consent",
+        "shapes": "1B — The cell shapes assessed",
+        "grades": "1C — Grades on the judgment properties",
+        "objective": "1D — Objective properties",
+        "defs": "1E — Definitions and new properties"
+      },
+      "area": {
+        "text": "<strong>1A1. Main field of work</strong>",
+        "options": {
+          "MAT": "Mathematics (geometry, topology, combinatorics)",
+          "CGE": "Computational geometry or spatial data structures",
+          "GEO": "Geodesy or mathematical cartography (projections, reference systems)",
+          "INT": "Interval analysis or numerical methods",
+          "CS": "Computer science (indexing, databases, space-filling curves)"
+        }
+      },
+      "inst": {
+        "text": "<strong>1A2. Type of institution</strong>",
+        "options": {
+          "UNI": "university or research institute",
+          "PUB": "public agency",
+          "COM": "company",
+          "INT": "international organisation",
+          "OTH": "other"
+        }
+      },
+      "grids": {
+        "text": "<strong>1A4. Familiarity with discrete grids</strong> (tick all that apply)",
+        "options": {
+          "ISO": "ISO 19170 or OGC API DGGS",
+          "HEX": "H3, ISEA or other hexagonal grids",
+          "QUAD": "S2, quadtrees or tiles",
+          "TRI": "triangular grids (QTM, HTM etc.)",
+          "SFC": "Morton or Hilbert curves",
+          "NONE": "none"
+        }
+      },
+      "coi_help": "This declaration is mandatory. It is published in aggregate by field of work for anonymous participants and individually for the others.",
+      "disc": {
+        "text": "<strong>1A6. Disclosure level after the consultation closes</strong>",
+        "options": {
+          "ANON": "<strong>Anonymous.</strong> Only my field of work is disclosed.",
+          "NAMED": "<strong>Named.</strong> My name and institution appear in the public list of the panel, but my answers are not attributed to me.",
+          "PUBL": "<strong>Public.</strong> My name, institution, answers and justifications are published individually."
+        },
+        "rule": "Breakdowns of results by field of work or by item are published only when they include at least three anonymous respondents, so that their answers cannot be deduced by subtraction."
+      },
+      "shapes": {
+        "header": [
+          "Shape",
+          "Hierarchy considered"
+        ],
+        "rows": {
+          "square": "Binary refinement: the square splits into two 1:2 rectangles, and each rectangle into two squares. Equivalent to a quadtree every two levels.",
+          "triangle": "Aperture-4 refinement: each triangle splits into four triangles, with alternating orientations.",
+          "hexagon": "Aperture 3, 4 or 7 hierarchies, as in H3 and ISEA3H, in which the child hexagons cover the parent only approximately."
+        },
+        "note": "Consider the grid defined on an equal-area planar projection, with national extent."
+      },
+      "grades": {
+        "intro": "Give each shape a grade from <strong>0</strong> (not satisfied) to <strong>1</strong> (fully satisfied), in steps of 0.1. Leave blank anything outside your competence. Justifications are very useful, especially for extreme grades.",
+        "defs_header": [
+          "Code",
+          "Property",
+          "Operational definition"
+        ],
+        "matrix": "<strong>1C1.</strong> Grade of each shape on each property (0 to 1)",
+        "just": "Justifications (optional), by property"
+      },
+      "objective": {
+        "intro": "The grades below follow from geometric proof or calculation and are therefore not put to a vote. They may, however, be revised in the light of evidence. If you disagree with any of them, record the objection with the proof, counterexample or reference that supports it.",
+        "header": [
+          "Code",
+          "Property",
+          "Square",
+          "Triangular",
+          "Hexagonal",
+          "Basis"
+        ],
+        "question": "<strong>1D1. Objections, with evidence</strong>"
+      },
+      "defs": {
+        "e1": "<strong>1E1. Is any definition in parts 1C or 1D ambiguous, imprecise, or does it conflate two distinct properties?</strong> Propose the wording you consider correct.",
+        "e2": "<strong>1E2. Which relevant geometric or computational properties are missing?</strong> For each, give its name, an operational definition, whether it is objective or a matter of judgment, and the grade you would give each shape. <strong>Properties that favour hexagonal or triangular cells are explicitly welcome.</strong>",
+        "e3": "<strong>1E3. Other comments, including on possible biases in the design of this consultation</strong>"
+      }
+    },
+    "q2": {
+      "title": "Questionnaire 2 — Relevance of the properties to applications",
+      "subtitle": "DGGS-4N Delphi consultation · Round 01 · Applications panel",
+      "intro": [
+        "You have been invited to join the applications panel of a Delphi consultation on discrete national grids (DGGS-4N). A discrete national grid divides the territory into hierarchical cells identified by codes. It can serve as a common basis for official statistics, cadastre, remote sensing, addressing, health, logistics and data integration among public agencies.",
+        "In this questionnaire, we ask you to judge <strong>how much each property of a grid matters to each application</strong>. You do not need to know which cell shape satisfies each property: that assessment is the task of another panel, with a mathematical profile. What is asked here is what each application requires in practice.",
+        "{anonymity}",
+        "Estimated time: 30 to 45 minutes. You may skip the applications you are not familiar with. Your answers are saved on every page, and you can resume the questionnaire from the same link."
+      ],
+      "groups": {
+        "profile": "2A — Profile and consent",
+        "defs": "2B — Definitions",
+        "app": "2C · {id} · {name}",
+        "nest": "2D — Requirement of exact nesting",
+        "proposals": "2E — Proposals"
+      },
+      "group": {
+        "text": "<strong>2A1. Main user group</strong>",
+        "options": {
+          "OST": "Official statistics",
+          "CAD": "Cadastre and land registry",
+          "RS": "Remote sensing and environmental monitoring",
+          "ADL": "Addressing, postal services and logistics",
+          "HEM": "Health surveillance and emergency services",
+          "ACA": "Academia (GIS, cartography, spatial data infrastructure)"
+        }
+      },
+      "inst": {
+        "text": "<strong>2A2. Type of institution</strong>",
+        "options": {
+          "FED": "national public agency",
+          "STA": "state or provincial",
+          "MUN": "municipal",
+          "UNI": "university or research institute",
+          "COM": "company",
+          "CSO": "civil society organisation",
+          "INT": "international organisation",
+          "OTH": "other"
+        }
+      },
+      "grids": {
+        "text": "<strong>2A4. Have you worked with discrete grids?</strong> (tick all that apply)",
+        "options": {
+          "STAT": "statistical grids (IBGE, INSPIRE etc.)",
+          "HEX": "H3 or other hexagonal grids",
+          "QUAD": "S2, quadtrees or tiles",
+          "GEOC": "geocodes (Geohash, Plus Codes, DIGIPIN etc.)",
+          "NONE": "no"
+        }
+      },
+      "coi_help": "This declaration is mandatory. It is published in aggregate by group for anonymous participants and individually for the others.",
+      "disc": {
+        "text": "<strong>2A6. Disclosure level after the consultation closes</strong>",
+        "options": {
+          "ANON": "<strong>Anonymous.</strong> Only my group is disclosed.",
+          "NAMED": "<strong>Named.</strong> My name and institution appear in the public list of the panel, but my answers are not attributed to me.",
+          "PUBL": "<strong>Public.</strong> My name, institution, answers and justifications are published individually."
+        },
+        "rule": "Breakdowns of results by group or by item are published only when they include at least three anonymous respondents, so that their answers cannot be deduced by subtraction."
+      },
+      "defs": {
+        "scale_title": "Relevance scale",
+        "scale_header": [
+          "Grade",
+          "Meaning"
+        ],
+        "scale": {
+          "R0": "<strong>Irrelevant:</strong> the application works equally well without this property.",
+          "R1": "<strong>Desirable:</strong> it helps, but its absence can be worked around without significant cost.",
+          "R2": "<strong>Important:</strong> its absence imposes significant cost, rework or loss of quality.",
+          "R3": "<strong>Essential:</strong> without it, the application is compromised or requires another solution."
+        },
+        "props_title": "Properties",
+        "props_header": [
+          "Code",
+          "Property",
+          "What it means"
+        ],
+        "next": "On the next 14 pages, one per application, first state your familiarity with the application. <strong>If your familiarity is low, move on to the next one.</strong> Otherwise, give each property a grade from 0 to 3. Comments are optional, but very useful for grades 0 and 3 and whenever you disagree with the description of the application."
+      },
+      "app": {
+        "fam": "Your familiarity with this application",
+        "fam_options": {
+          "H": "high",
+          "M": "medium",
+          "L": "low (move on to the next application)"
+        },
+        "rel": "Relevance of each property to this application",
+        "rel_options": {
+          "R0": "0 · irrelevant",
+          "R1": "1 · desirable",
+          "R2": "2 · important",
+          "R3": "3 · essential"
+        },
+        "com": "Comments (optional), by property"
+      },
+      "nest": {
+        "intro": [
+          "Some applications produce results with legal or accounting effect, or depend on a unique key. In them, a grid without exact nesting (P1a) may be inadmissible, whatever its performance on the other criteria.",
+          "For each application, state whether it <strong>requires</strong> exact nesting, that is, whether a merely approximate hierarchy would make it unworkable, and not just worse. Only the applications for which you declared high or medium familiarity are shown below."
+        ],
+        "question": "Does the application require exact nesting?",
+        "options": {
+          "Y": "yes",
+          "N": "no",
+          "U": "don't know"
+        },
+        "just": "Justifications (optional), by application"
+      },
+      "proposals": {
+        "intro": "The assessment is only reliable if it represents the needs of all users well. <strong>Applications in which neighbourhood, distance or the roundness of cells are decisive are explicitly welcome.</strong> Proposals will be submitted to the whole panel in the next round.",
+        "e1": "<strong>2E1. Missing applications.</strong> For each: name, short description, institutional users and the properties you consider decisive.",
+        "e2": "<strong>2E2. Needs not covered.</strong> Is any practical requirement of your applications not represented by properties P1a to P8? Describe it in terms of use; the geometry panel will translate it into a property, if appropriate.",
+        "e3": "<strong>2E3. Is any application in the list poorly defined, duplicated, or should it be split?</strong>",
+        "e4": "<strong>2E4. Other comments, including on possible biases in the design of this consultation</strong>"
+      }
+    }
+  }
+}

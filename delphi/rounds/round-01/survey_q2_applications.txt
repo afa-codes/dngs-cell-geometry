@@ -1,0 +1,1024 @@
+class	type/scale	name	relevance	text	help	language	validation	mandatory	other	default	same_default	hidden	equation	multiflexible_min	multiflexible_max	multiflexible_step	input_boxes	exclude_all_others	display_rows	answer_width
+S		sid		100102																
+S		language		pt-BR																
+S		additional_languages		en																
+S		admin		Coordenação DGGS-4N																
+S		adminemail		delphi@example.org																
+S		bounce_email		delphi@example.org																
+S		anonymized		N																
+S		format		G																
+S		datestamp		N																
+S		ipaddr		N																
+S		refurl		N																
+S		savetimings		N																
+S		usecookie		N																
+S		allowregister		N																
+S		allowsave		N																
+S		allowprev		Y																
+S		showprogress		Y																
+S		questionindex		1																
+S		showwelcome		Y																
+S		showxquestions		N																
+S		showgroupinfo		B																
+S		showqnumcode		X																
+S		shownoanswer		Y																
+S		tokenanswerspersistence		Y																
+S		alloweditaftercompletion		Y																
+S		htmlemail		Y																
+S		listpublic		N																
+S		publicstatistics		N																
+S		publicgraphs		N																
+S		printanswers		Y																
+S		attributedescriptions		"{""attribute_1"": {""description"": ""respondent_id"", ""mandatory"": ""Y"", ""encrypted"": ""N"", ""show_register"": ""N"", ""cpdbmap"": """"}, ""attribute_2"": {""description"": ""institution"", ""mandatory"": ""N"", ""encrypted"": ""N"", ""show_register"": ""N"", ""cpdbmap"": """"}}"																
+SL		surveyls_language		pt-BR		pt-BR														
+SL		surveyls_title		Questionário 2 — Relevância das propriedades para as aplicações		pt-BR														
+SL		surveyls_description		<p>Consulta Delphi DGGS-4N · Rodada 01 · Painel de aplicações</p>		pt-BR														
+SL		surveyls_welcometext		<p>Você foi convidado(a) a integrar o painel de aplicações de uma consulta Delphi sobre grades nacionais discretas (DGGS-4N). Uma grade nacional discreta divide o território em células hierárquicas, identificadas por códigos. Ela pode servir de base comum para estatísticas oficiais, cadastro, sensoriamento remoto, endereçamento, saúde, logística e integração de dados entre órgãos públicos.</p><p>Neste questionário, pedimos que você julgue <strong>quanto cada propriedade de uma grade importa para cada aplicação</strong>. Não é preciso saber qual forma de célula satisfaz cada propriedade: essa avaliação cabe a outro painel, de perfil matemático. O que se pergunta aqui é o que cada aplicação exige na prática.</p><p>As respostas são individuais e permanecem anônimas enquanto a consulta estiver aberta. Ao final de cada rodada, você recebe a mediana e a dispersão das respostas do painel, junto com as justificativas anonimizadas, e pode rever as suas. Discordâncias bem fundamentadas são tão valiosas quanto concordâncias.</p><p>Tempo estimado: 30 a 45 minutos. Você pode deixar de responder as aplicações com as quais não tenha familiaridade. Suas respostas são salvas a cada página, e você pode retomar o questionário pelo mesmo link.</p><p><strong>Contato da coordenação:</strong> Coordenação DGGS-4N (delphi@example.org)</p>		pt-BR														
+SL		surveyls_endtext		<p>Obrigado pela participação. Você receberá o resumo anonimizado desta rodada e o questionário da rodada 02.</p>		pt-BR														
+SL		surveyls_numberformat		1		pt-BR														
+SL		surveyls_email_invite_subj		Convite: {SURVEYNAME}		pt-BR														
+SL		surveyls_email_invite		<p>Prezado(a) {FIRSTNAME},</p><p>Você foi convidado(a) a participar da consulta Delphi sobre a geometria de célula das grades nacionais discretas (DGGS-4N).</p><p>Seu código pseudônimo nesta consulta é <strong>{ATTRIBUTE_1}</strong>. Ele identifica suas respostas nos dados publicados; seu nome não aparece neles, salvo se você escolher outro nível de divulgação no questionário.</p><p>Para responder, use o link pessoal abaixo, que permite salvar e retomar o questionário:<br>{SURVEYURL}</p><p>Se não quiser participar nem receber lembretes, use este link:<br>{OPTOUTURL}</p><p>Atenciosamente,<br>{ADMINNAME} ({ADMINEMAIL})</p>		pt-BR														
+SL		surveyls_email_remind_subj		Lembrete: {SURVEYNAME}		pt-BR														
+SL		surveyls_email_remind		<p>Prezado(a) {FIRSTNAME},</p><p>Lembramos que a consulta Delphi DGGS-4N continua aberta e que sua participação é muito importante. Seu código pseudônimo é <strong>{ATTRIBUTE_1}</strong>.</p><p>Link pessoal para responder ou continuar:<br>{SURVEYURL}</p><p>Se não quiser participar nem receber lembretes, use este link:<br>{OPTOUTURL}</p><p>Atenciosamente,<br>{ADMINNAME} ({ADMINEMAIL})</p>		pt-BR														
+SL		surveyls_language		en		en														
+SL		surveyls_title		Questionnaire 2 — Relevance of the properties to applications		en														
+SL		surveyls_description		<p>DGGS-4N Delphi consultation · Round 01 · Applications panel</p>		en														
+SL		surveyls_welcometext		<p>You have been invited to join the applications panel of a Delphi consultation on discrete national grids (DGGS-4N). A discrete national grid divides the territory into hierarchical cells identified by codes. It can serve as a common basis for official statistics, cadastre, remote sensing, addressing, health, logistics and data integration among public agencies.</p><p>In this questionnaire, we ask you to judge <strong>how much each property of a grid matters to each application</strong>. You do not need to know which cell shape satisfies each property: that assessment is the task of another panel, with a mathematical profile. What is asked here is what each application requires in practice.</p><p>Answers are individual and remain anonymous while the consultation is open. At the end of each round, you receive the median and dispersion of the panel's answers, together with the anonymised justifications, and may revise your own. Well-founded disagreements are as valuable as agreements.</p><p>Estimated time: 30 to 45 minutes. You may skip the applications you are not familiar with. Your answers are saved on every page, and you can resume the questionnaire from the same link.</p><p><strong>Coordination contact:</strong> Coordenação DGGS-4N (delphi@example.org)</p>		en														
+SL		surveyls_endtext		<p>Thank you for taking part. You will receive the anonymised summary of this round and the questionnaire for round 02.</p>		en														
+SL		surveyls_numberformat		0		en														
+SL		surveyls_email_invite_subj		Invitation: {SURVEYNAME}		en														
+SL		surveyls_email_invite		<p>Dear {FIRSTNAME},</p><p>You are invited to take part in the Delphi consultation on the cell geometry of discrete national grids (DGGS-4N).</p><p>Your pseudonymous code in this consultation is <strong>{ATTRIBUTE_1}</strong>. It identifies your answers in the published data; your name does not appear in them unless you choose another disclosure level in the questionnaire.</p><p>To answer, use the personal link below, which lets you save and resume the questionnaire:<br>{SURVEYURL}</p><p>If you do not wish to take part or receive reminders, use this link:<br>{OPTOUTURL}</p><p>Kind regards,<br>{ADMINNAME} ({ADMINEMAIL})</p>		en														
+SL		surveyls_email_remind_subj		Reminder: {SURVEYNAME}		en														
+SL		surveyls_email_remind		<p>Dear {FIRSTNAME},</p><p>This is a reminder that the DGGS-4N Delphi consultation is still open and that your participation matters. Your pseudonymous code is <strong>{ATTRIBUTE_1}</strong>.</p><p>Personal link to answer or continue:<br>{SURVEYURL}</p><p>If you do not wish to take part or receive reminders, use this link:<br>{OPTOUTURL}</p><p>Kind regards,<br>{ADMINNAME} ({ADMINEMAIL})</p>		en														
+G	1	2A — Perfil e consentimento	1	<p>Enquanto a consulta estiver aberta, suas respostas são identificadas apenas por um código pseudônimo (R001, R002, …) atribuído pela coordenação, e nenhum nome é revelado, nem aos demais painelistas. A correspondência entre código e pessoa, assim como seus dados de contato, fica guardada apenas no banco de dados da consulta, fora do repositório público, pelo tempo necessário à consulta e à publicação de seus resultados, conforme a Lei Geral de Proteção de Dados (Lei 13.709/2018). Quem responder aos dois questionários mantém o mesmo código. Após o fechamento, a divulgação segue o nível que você escolher na pergunta 2A6.</p>		pt-BR														
+Q	*	RID	1	Código do respondente		pt-BR		N	N			1	{TOKEN:ATTRIBUTE_1}							
+Q	L	UGRP	1	<strong>2A1. Grupo de atuação principal</strong>		pt-BR		Y	Y											
+A	0	OST		Estatísticas oficiais		pt-BR														
+A	0	CAD		Cadastro e registro de imóveis		pt-BR														
+A	0	RS		Sensoriamento remoto e monitoramento ambiental		pt-BR														
+A	0	ADL		Endereçamento, serviços postais e logística		pt-BR														
+A	0	HEM		Vigilância em saúde e serviços de emergência		pt-BR														
+A	0	ACA		Academia (SIG, cartografia, infraestrutura de dados espaciais)		pt-BR														
+Q	L	INST	1	<strong>2A2. Tipo de instituição</strong>		pt-BR		Y	N											
+A	0	FED		órgão público federal		pt-BR														
+A	0	STA		estadual		pt-BR														
+A	0	MUN		municipal		pt-BR														
+A	0	UNI		universidade ou instituto de pesquisa		pt-BR														
+A	0	COM		empresa		pt-BR														
+A	0	CSO		organização da sociedade civil		pt-BR														
+A	0	INT		organismo internacional		pt-BR														
+A	0	OTH		outro		pt-BR														
+Q	L	EXPER	1	<strong>2A3. Anos de experiência na área</strong>		pt-BR		Y	N											
+A	0	E1		menos de 5		pt-BR														
+A	0	E2		5 a 10		pt-BR														
+A	0	E3		11 a 20		pt-BR														
+A	0	E4		mais de 20		pt-BR														
+Q	M	GRIDS	1	<strong>2A4. Já trabalhou com grades discretas?</strong> (marque todas que se aplicam)		pt-BR		Y	N									NONE		
+SQ		STAT	1	grades estatísticas (IBGE, INSPIRE etc.)		pt-BR														
+SQ		HEX	1	H3 ou outras grades hexagonais		pt-BR														
+SQ		QUAD	1	S2, quadtrees ou tiles		pt-BR														
+SQ		GEOC	1	geocódigos (Geohash, Plus Codes, DIGIPIN etc.)		pt-BR														
+SQ		NONE	1	não		pt-BR														
+Q	L	COI	1	<strong>2A5. Conflito de interesses.</strong> Você tem, atualmente ou nos últimos três anos, vínculo com empresa ou instituição fornecedora de soluções baseadas em sistemas de geocódigos e/ou sistemas de grades? Considere emprego, sociedade, consultoria, financiamento ou participação em desenvolvimento.	A declaração é obrigatória. Ela é publicada de forma agregada por grupo para participantes anônimos e individualmente para os demais.	pt-BR		Y	N											
+A	0	N		Não		pt-BR														
+A	0	Y		Sim		pt-BR														
+Q	T	COIdesc	COI.NAOK == 'Y'	Descreva a natureza do vínculo e a solução envolvida.		pt-BR		Y	N										3	
+Q	L	DISC	1	<strong>2A6. Nível de divulgação após o fechamento da consulta</strong>	Você pode mudar o nível escolhido até o fechamento da consulta. Depois da publicação, nomes e respostas passam a integrar o registro permanente do padrão e não podem ser retirados. Nos níveis nominal e público, são usados o nome e a instituição informados no convite; para corrigi-los, escreva à coordenação. Recortes de resultados por grupo ou por item só são publicados quando incluem ao menos três respondentes anônimos, para que as respostas destes não possam ser deduzidas por diferença.	pt-BR		Y	N											
+A	0	ANON		<strong>Anônimo.</strong> Apenas meu grupo de atuação é divulgado.		pt-BR														
+A	0	NAMED		<strong>Nominal.</strong> Meu nome e minha instituição constam da lista pública do painel, mas minhas respostas não são atribuídas a mim.		pt-BR														
+A	0	PUBL		<strong>Público.</strong> Meu nome, minha instituição, minhas respostas e minhas justificativas são publicados individualmente.		pt-BR														
+Q	M	CONS	1	<strong>2A7. Consentimento</strong>		pt-BR		Y	N											
+SQ		ok	1	Li e concordo em participar. Autorizo o uso das minhas respostas e justificativas nos relatórios da consulta, conforme o nível de divulgação escolhido acima.		pt-BR														
+G	2	2B — Definições	1			pt-BR														
+Q	X	DEFStab	1	"<h4>Escala de relevância</h4><table class=""table table-bordered table-condensed""><thead><tr><th>Nota</th><th>Significado</th></tr></thead><tbody><tr><td><strong>0</strong></td><td><strong>Irrelevante:</strong> a aplicação funciona igualmente bem sem esta propriedade.</td></tr><tr><td><strong>1</strong></td><td><strong>Desejável:</strong> ajuda, mas sua ausência é contornável sem custo significativo.</td></tr><tr><td><strong>2</strong></td><td><strong>Importante:</strong> sua ausência impõe custo, retrabalho ou perda de qualidade relevante.</td></tr><tr><td><strong>3</strong></td><td><strong>Essencial:</strong> sem ela, a aplicação fica comprometida ou exige outra solução.</td></tr></tbody></table><h4>Propriedades</h4><table class=""table table-bordered table-condensed""><thead><tr><th>Código</th><th>Propriedade</th><th>O que significa</th></tr></thead><tbody><tr><td>P1a</td><td>Aninhamento exato entre níveis</td><td>Cada célula de um nível é exatamente a união das suas células-filhas, sem lacunas nem sobreposições.</td></tr><tr><td>P1b</td><td>Hierarquia aproximada utilizável</td><td>Existe uma relação pai-filho consultável entre níveis, ainda que as bordas não coincidam exatamente.</td></tr><tr><td>P2</td><td>Alinhamento com dados raster</td><td>As células coincidem com pixels e tiles de imagens sem necessidade de reamostragem.</td></tr><tr><td>P3</td><td>Geocódigo por prefixo</td><td>Truncar o código de uma célula produz exatamente o código da célula-mãe; códigos próximos tendem a indicar lugares próximos.</td></tr><tr><td>P4</td><td>Vizinhança uniforme</td><td>Todas as células vizinhas estão à mesma distância e compartilham uma aresta.</td></tr><tr><td>P5</td><td>Orientação congruente</td><td>Todas as células são iguais entre si por simples translação, sem alternância de orientação.</td></tr><tr><td>P6</td><td>Compacidade</td><td>A célula se aproxima de um círculo, ou seja, tem pouco perímetro em relação à área.</td></tr><tr><td>P7</td><td>Subpavimentação intervalar</td><td>As células são produtos de intervalos de coordenadas, o que permite aritmética intervalar e a obtenção de uma cobertura interna garantida de um polígono.</td></tr><tr><td>P8</td><td>Compatibilidade com o legado cartográfico</td><td>As células se articulam com folhas de mapas, tiles de serviços web e grades estatísticas existentes.</td></tr></tbody></table><p>Nas próximas 14 páginas, uma por aplicação, informe primeiro sua familiaridade com a aplicação. <strong>Se a familiaridade for baixa, avance para a próxima.</strong> Caso contrário, atribua de 0 a 3 a cada propriedade. Comentários são opcionais, mas muito úteis nas notas 0 e 3 e sempre que você discordar da descrição da aplicação.</p>"		pt-BR		N	N											
+G	3	2C · A01 · Estatísticas oficiais e controle de divulgação	1	<p>Divulgação de dados em grade, com agregação adaptativa de células até atingir o número mínimo de unidades que protege o sigilo estatístico.</p>		pt-BR														
+Q	L	A01fam	1	Sua familiaridade com esta aplicação		pt-BR		Y	N											
+A	0	H		alta		pt-BR														
+A	0	M		média		pt-BR														
+A	0	L		baixa (avançar para a próxima aplicação)		pt-BR														
+Q	F	A01rel	(A01fam.NAOK == 'H' or A01fam.NAOK == 'M')	Relevância de cada propriedade para esta aplicação		pt-BR		N	N											30
+SQ		P1a	1	P1a Aninhamento exato		pt-BR														
+SQ		P1b	1	P1b Hierarquia aproximada		pt-BR														
+SQ		P2	1	P2 Alinhamento raster		pt-BR														
+SQ		P3	1	P3 Geocódigo por prefixo		pt-BR														
+SQ		P4	1	P4 Vizinhança uniforme		pt-BR														
+SQ		P5	1	P5 Orientação congruente		pt-BR														
+SQ		P6	1	P6 Compacidade		pt-BR														
+SQ		P7	1	P7 Subpavimentação intervalar		pt-BR														
+SQ		P8	1	P8 Legado cartográfico		pt-BR														
+A	0	R0		0 · irrelevante		pt-BR														
+A	0	R1		1 · desejável		pt-BR														
+A	0	R2		2 · importante		pt-BR														
+A	0	R3		3 · essencial		pt-BR														
+Q	Q	A01com	(A01fam.NAOK == 'H' or A01fam.NAOK == 'M')	Comentários (opcionais), por propriedade		pt-BR		N	N											
+SQ		P1a	1	P1a Aninhamento exato		pt-BR														
+SQ		P1b	1	P1b Hierarquia aproximada		pt-BR														
+SQ		P2	1	P2 Alinhamento raster		pt-BR														
+SQ		P3	1	P3 Geocódigo por prefixo		pt-BR														
+SQ		P4	1	P4 Vizinhança uniforme		pt-BR														
+SQ		P5	1	P5 Orientação congruente		pt-BR														
+SQ		P6	1	P6 Compacidade		pt-BR														
+SQ		P7	1	P7 Subpavimentação intervalar		pt-BR														
+SQ		P8	1	P8 Legado cartográfico		pt-BR														
+G	4	2C · A02 · Comparabilidade intercensitária	1	<p>Células fixas no tempo, que permitem comparar censos sucessivos independentemente de mudanças em setores censitários e limites municipais.</p>		pt-BR														
+Q	L	A02fam	1	Sua familiaridade com esta aplicação		pt-BR		Y	N											
+A	0	H		alta		pt-BR														
+A	0	M		média		pt-BR														
+A	0	L		baixa (avançar para a próxima aplicação)		pt-BR														
+Q	F	A02rel	(A02fam.NAOK == 'H' or A02fam.NAOK == 'M')	Relevância de cada propriedade para esta aplicação		pt-BR		N	N											30
+SQ		P1a	1	P1a Aninhamento exato		pt-BR														
+SQ		P1b	1	P1b Hierarquia aproximada		pt-BR														
+SQ		P2	1	P2 Alinhamento raster		pt-BR														
+SQ		P3	1	P3 Geocódigo por prefixo		pt-BR														
+SQ		P4	1	P4 Vizinhança uniforme		pt-BR														
+SQ		P5	1	P5 Orientação congruente		pt-BR														
+SQ		P6	1	P6 Compacidade		pt-BR														
+SQ		P7	1	P7 Subpavimentação intervalar		pt-BR														
+SQ		P8	1	P8 Legado cartográfico		pt-BR														
+A	0	R0		0 · irrelevante		pt-BR														
+A	0	R1		1 · desejável		pt-BR														
+A	0	R2		2 · importante		pt-BR														
+A	0	R3		3 · essencial		pt-BR														
+Q	Q	A02com	(A02fam.NAOK == 'H' or A02fam.NAOK == 'M')	Comentários (opcionais), por propriedade		pt-BR		N	N											
+SQ		P1a	1	P1a Aninhamento exato		pt-BR														
+SQ		P1b	1	P1b Hierarquia aproximada		pt-BR														
+SQ		P2	1	P2 Alinhamento raster		pt-BR														
+SQ		P3	1	P3 Geocódigo por prefixo		pt-BR														
+SQ		P4	1	P4 Vizinhança uniforme		pt-BR														
+SQ		P5	1	P5 Orientação congruente		pt-BR														
+SQ		P6	1	P6 Compacidade		pt-BR														
+SQ		P7	1	P7 Subpavimentação intervalar		pt-BR														
+SQ		P8	1	P8 Legado cartográfico		pt-BR														
+G	5	2C · A03 · Sensoriamento remoto	1	<p>Integração de imagens de satélite e produtos derivados (uso do solo, desmatamento, índices de vegetação) à grade nacional.</p>		pt-BR														
+Q	L	A03fam	1	Sua familiaridade com esta aplicação		pt-BR		Y	N											
+A	0	H		alta		pt-BR														
+A	0	M		média		pt-BR														
+A	0	L		baixa (avançar para a próxima aplicação)		pt-BR														
+Q	F	A03rel	(A03fam.NAOK == 'H' or A03fam.NAOK == 'M')	Relevância de cada propriedade para esta aplicação		pt-BR		N	N											30
+SQ		P1a	1	P1a Aninhamento exato		pt-BR														
+SQ		P1b	1	P1b Hierarquia aproximada		pt-BR														
+SQ		P2	1	P2 Alinhamento raster		pt-BR														
+SQ		P3	1	P3 Geocódigo por prefixo		pt-BR														
+SQ		P4	1	P4 Vizinhança uniforme		pt-BR														
+SQ		P5	1	P5 Orientação congruente		pt-BR														
+SQ		P6	1	P6 Compacidade		pt-BR														
+SQ		P7	1	P7 Subpavimentação intervalar		pt-BR														
+SQ		P8	1	P8 Legado cartográfico		pt-BR														
+A	0	R0		0 · irrelevante		pt-BR														
+A	0	R1		1 · desejável		pt-BR														
+A	0	R2		2 · importante		pt-BR														
+A	0	R3		3 · essencial		pt-BR														
+Q	Q	A03com	(A03fam.NAOK == 'H' or A03fam.NAOK == 'M')	Comentários (opcionais), por propriedade		pt-BR		N	N											
+SQ		P1a	1	P1a Aninhamento exato		pt-BR														
+SQ		P1b	1	P1b Hierarquia aproximada		pt-BR														
+SQ		P2	1	P2 Alinhamento raster		pt-BR														
+SQ		P3	1	P3 Geocódigo por prefixo		pt-BR														
+SQ		P4	1	P4 Vizinhança uniforme		pt-BR														
+SQ		P5	1	P5 Orientação congruente		pt-BR														
+SQ		P6	1	P6 Compacidade		pt-BR														
+SQ		P7	1	P7 Subpavimentação intervalar		pt-BR														
+SQ		P8	1	P8 Legado cartográfico		pt-BR														
+G	6	2C · A04 · Cadastros ambientais e rurais	1	<p>Representação e agregação de polígonos declarados, como os do Cadastro Ambiental Rural (CAR), e cruzamento com dados ambientais.</p>		pt-BR														
+Q	L	A04fam	1	Sua familiaridade com esta aplicação		pt-BR		Y	N											
+A	0	H		alta		pt-BR														
+A	0	M		média		pt-BR														
+A	0	L		baixa (avançar para a próxima aplicação)		pt-BR														
+Q	F	A04rel	(A04fam.NAOK == 'H' or A04fam.NAOK == 'M')	Relevância de cada propriedade para esta aplicação		pt-BR		N	N											30
+SQ		P1a	1	P1a Aninhamento exato		pt-BR														
+SQ		P1b	1	P1b Hierarquia aproximada		pt-BR														
+SQ		P2	1	P2 Alinhamento raster		pt-BR														
+SQ		P3	1	P3 Geocódigo por prefixo		pt-BR														
+SQ		P4	1	P4 Vizinhança uniforme		pt-BR														
+SQ		P5	1	P5 Orientação congruente		pt-BR														
+SQ		P6	1	P6 Compacidade		pt-BR														
+SQ		P7	1	P7 Subpavimentação intervalar		pt-BR														
+SQ		P8	1	P8 Legado cartográfico		pt-BR														
+A	0	R0		0 · irrelevante		pt-BR														
+A	0	R1		1 · desejável		pt-BR														
+A	0	R2		2 · importante		pt-BR														
+A	0	R3		3 · essencial		pt-BR														
+Q	Q	A04com	(A04fam.NAOK == 'H' or A04fam.NAOK == 'M')	Comentários (opcionais), por propriedade		pt-BR		N	N											
+SQ		P1a	1	P1a Aninhamento exato		pt-BR														
+SQ		P1b	1	P1b Hierarquia aproximada		pt-BR														
+SQ		P2	1	P2 Alinhamento raster		pt-BR														
+SQ		P3	1	P3 Geocódigo por prefixo		pt-BR														
+SQ		P4	1	P4 Vizinhança uniforme		pt-BR														
+SQ		P5	1	P5 Orientação congruente		pt-BR														
+SQ		P6	1	P6 Compacidade		pt-BR														
+SQ		P7	1	P7 Subpavimentação intervalar		pt-BR														
+SQ		P8	1	P8 Legado cartográfico		pt-BR														
+G	7	2C · A05 · Indicadores municipais e setoriais	1	<p>Indicadores de saúde, educação, assistência social e planejamento urbano comparáveis entre municípios de tamanhos e limites diferentes.</p>		pt-BR														
+Q	L	A05fam	1	Sua familiaridade com esta aplicação		pt-BR		Y	N											
+A	0	H		alta		pt-BR														
+A	0	M		média		pt-BR														
+A	0	L		baixa (avançar para a próxima aplicação)		pt-BR														
+Q	F	A05rel	(A05fam.NAOK == 'H' or A05fam.NAOK == 'M')	Relevância de cada propriedade para esta aplicação		pt-BR		N	N											30
+SQ		P1a	1	P1a Aninhamento exato		pt-BR														
+SQ		P1b	1	P1b Hierarquia aproximada		pt-BR														
+SQ		P2	1	P2 Alinhamento raster		pt-BR														
+SQ		P3	1	P3 Geocódigo por prefixo		pt-BR														
+SQ		P4	1	P4 Vizinhança uniforme		pt-BR														
+SQ		P5	1	P5 Orientação congruente		pt-BR														
+SQ		P6	1	P6 Compacidade		pt-BR														
+SQ		P7	1	P7 Subpavimentação intervalar		pt-BR														
+SQ		P8	1	P8 Legado cartográfico		pt-BR														
+A	0	R0		0 · irrelevante		pt-BR														
+A	0	R1		1 · desejável		pt-BR														
+A	0	R2		2 · importante		pt-BR														
+A	0	R3		3 · essencial		pt-BR														
+Q	Q	A05com	(A05fam.NAOK == 'H' or A05fam.NAOK == 'M')	Comentários (opcionais), por propriedade		pt-BR		N	N											
+SQ		P1a	1	P1a Aninhamento exato		pt-BR														
+SQ		P1b	1	P1b Hierarquia aproximada		pt-BR														
+SQ		P2	1	P2 Alinhamento raster		pt-BR														
+SQ		P3	1	P3 Geocódigo por prefixo		pt-BR														
+SQ		P4	1	P4 Vizinhança uniforme		pt-BR														
+SQ		P5	1	P5 Orientação congruente		pt-BR														
+SQ		P6	1	P6 Compacidade		pt-BR														
+SQ		P7	1	P7 Subpavimentação intervalar		pt-BR														
+SQ		P8	1	P8 Legado cartográfico		pt-BR														
+G	8	2C · A06 · Vigilância epidemiológica	1	<p>Análise de difusão de doenças, detecção de aglomerados e modelagem de propagação entre áreas vizinhas.</p>		pt-BR														
+Q	L	A06fam	1	Sua familiaridade com esta aplicação		pt-BR		Y	N											
+A	0	H		alta		pt-BR														
+A	0	M		média		pt-BR														
+A	0	L		baixa (avançar para a próxima aplicação)		pt-BR														
+Q	F	A06rel	(A06fam.NAOK == 'H' or A06fam.NAOK == 'M')	Relevância de cada propriedade para esta aplicação		pt-BR		N	N											30
+SQ		P1a	1	P1a Aninhamento exato		pt-BR														
+SQ		P1b	1	P1b Hierarquia aproximada		pt-BR														
+SQ		P2	1	P2 Alinhamento raster		pt-BR														
+SQ		P3	1	P3 Geocódigo por prefixo		pt-BR														
+SQ		P4	1	P4 Vizinhança uniforme		pt-BR														
+SQ		P5	1	P5 Orientação congruente		pt-BR														
+SQ		P6	1	P6 Compacidade		pt-BR														
+SQ		P7	1	P7 Subpavimentação intervalar		pt-BR														
+SQ		P8	1	P8 Legado cartográfico		pt-BR														
+A	0	R0		0 · irrelevante		pt-BR														
+A	0	R1		1 · desejável		pt-BR														
+A	0	R2		2 · importante		pt-BR														
+A	0	R3		3 · essencial		pt-BR														
+Q	Q	A06com	(A06fam.NAOK == 'H' or A06fam.NAOK == 'M')	Comentários (opcionais), por propriedade		pt-BR		N	N											
+SQ		P1a	1	P1a Aninhamento exato		pt-BR														
+SQ		P1b	1	P1b Hierarquia aproximada		pt-BR														
+SQ		P2	1	P2 Alinhamento raster		pt-BR														
+SQ		P3	1	P3 Geocódigo por prefixo		pt-BR														
+SQ		P4	1	P4 Vizinhança uniforme		pt-BR														
+SQ		P5	1	P5 Orientação congruente		pt-BR														
+SQ		P6	1	P6 Compacidade		pt-BR														
+SQ		P7	1	P7 Subpavimentação intervalar		pt-BR														
+SQ		P8	1	P8 Legado cartográfico		pt-BR														
+G	9	2C · A07 · Endereçamento e códigos postais	1	<p>Código postal ou geocódigo hierárquico, novo ou em reforma de um sistema existente (como o CEP), no qual o código identifica a região de entrega.</p>		pt-BR														
+Q	L	A07fam	1	Sua familiaridade com esta aplicação		pt-BR		Y	N											
+A	0	H		alta		pt-BR														
+A	0	M		média		pt-BR														
+A	0	L		baixa (avançar para a próxima aplicação)		pt-BR														
+Q	F	A07rel	(A07fam.NAOK == 'H' or A07fam.NAOK == 'M')	Relevância de cada propriedade para esta aplicação		pt-BR		N	N											30
+SQ		P1a	1	P1a Aninhamento exato		pt-BR														
+SQ		P1b	1	P1b Hierarquia aproximada		pt-BR														
+SQ		P2	1	P2 Alinhamento raster		pt-BR														
+SQ		P3	1	P3 Geocódigo por prefixo		pt-BR														
+SQ		P4	1	P4 Vizinhança uniforme		pt-BR														
+SQ		P5	1	P5 Orientação congruente		pt-BR														
+SQ		P6	1	P6 Compacidade		pt-BR														
+SQ		P7	1	P7 Subpavimentação intervalar		pt-BR														
+SQ		P8	1	P8 Legado cartográfico		pt-BR														
+A	0	R0		0 · irrelevante		pt-BR														
+A	0	R1		1 · desejável		pt-BR														
+A	0	R2		2 · importante		pt-BR														
+A	0	R3		3 · essencial		pt-BR														
+Q	Q	A07com	(A07fam.NAOK == 'H' or A07fam.NAOK == 'M')	Comentários (opcionais), por propriedade		pt-BR		N	N											
+SQ		P1a	1	P1a Aninhamento exato		pt-BR														
+SQ		P1b	1	P1b Hierarquia aproximada		pt-BR														
+SQ		P2	1	P2 Alinhamento raster		pt-BR														
+SQ		P3	1	P3 Geocódigo por prefixo		pt-BR														
+SQ		P4	1	P4 Vizinhança uniforme		pt-BR														
+SQ		P5	1	P5 Orientação congruente		pt-BR														
+SQ		P6	1	P6 Compacidade		pt-BR														
+SQ		P7	1	P7 Subpavimentação intervalar		pt-BR														
+SQ		P8	1	P8 Legado cartográfico		pt-BR														
+G	10	2C · A08 · Logística e mobilidade	1	<p>Roteirização, fluxos origem-destino, análise de acessibilidade e distribuição de cargas e passageiros.</p>		pt-BR														
+Q	L	A08fam	1	Sua familiaridade com esta aplicação		pt-BR		Y	N											
+A	0	H		alta		pt-BR														
+A	0	M		média		pt-BR														
+A	0	L		baixa (avançar para a próxima aplicação)		pt-BR														
+Q	F	A08rel	(A08fam.NAOK == 'H' or A08fam.NAOK == 'M')	Relevância de cada propriedade para esta aplicação		pt-BR		N	N											30
+SQ		P1a	1	P1a Aninhamento exato		pt-BR														
+SQ		P1b	1	P1b Hierarquia aproximada		pt-BR														
+SQ		P2	1	P2 Alinhamento raster		pt-BR														
+SQ		P3	1	P3 Geocódigo por prefixo		pt-BR														
+SQ		P4	1	P4 Vizinhança uniforme		pt-BR														
+SQ		P5	1	P5 Orientação congruente		pt-BR														
+SQ		P6	1	P6 Compacidade		pt-BR														
+SQ		P7	1	P7 Subpavimentação intervalar		pt-BR														
+SQ		P8	1	P8 Legado cartográfico		pt-BR														
+A	0	R0		0 · irrelevante		pt-BR														
+A	0	R1		1 · desejável		pt-BR														
+A	0	R2		2 · importante		pt-BR														
+A	0	R3		3 · essencial		pt-BR														
+Q	Q	A08com	(A08fam.NAOK == 'H' or A08fam.NAOK == 'M')	Comentários (opcionais), por propriedade		pt-BR		N	N											
+SQ		P1a	1	P1a Aninhamento exato		pt-BR														
+SQ		P1b	1	P1b Hierarquia aproximada		pt-BR														
+SQ		P2	1	P2 Alinhamento raster		pt-BR														
+SQ		P3	1	P3 Geocódigo por prefixo		pt-BR														
+SQ		P4	1	P4 Vizinhança uniforme		pt-BR														
+SQ		P5	1	P5 Orientação congruente		pt-BR														
+SQ		P6	1	P6 Compacidade		pt-BR														
+SQ		P7	1	P7 Subpavimentação intervalar		pt-BR														
+SQ		P8	1	P8 Legado cartográfico		pt-BR														
+G	11	2C · A09 · Serviços de emergência	1	<p>Localização de chamados e análise da cobertura de bombeiros, ambulâncias, defesa civil e polícia.</p>		pt-BR														
+Q	L	A09fam	1	Sua familiaridade com esta aplicação		pt-BR		Y	N											
+A	0	H		alta		pt-BR														
+A	0	M		média		pt-BR														
+A	0	L		baixa (avançar para a próxima aplicação)		pt-BR														
+Q	F	A09rel	(A09fam.NAOK == 'H' or A09fam.NAOK == 'M')	Relevância de cada propriedade para esta aplicação		pt-BR		N	N											30
+SQ		P1a	1	P1a Aninhamento exato		pt-BR														
+SQ		P1b	1	P1b Hierarquia aproximada		pt-BR														
+SQ		P2	1	P2 Alinhamento raster		pt-BR														
+SQ		P3	1	P3 Geocódigo por prefixo		pt-BR														
+SQ		P4	1	P4 Vizinhança uniforme		pt-BR														
+SQ		P5	1	P5 Orientação congruente		pt-BR														
+SQ		P6	1	P6 Compacidade		pt-BR														
+SQ		P7	1	P7 Subpavimentação intervalar		pt-BR														
+SQ		P8	1	P8 Legado cartográfico		pt-BR														
+A	0	R0		0 · irrelevante		pt-BR														
+A	0	R1		1 · desejável		pt-BR														
+A	0	R2		2 · importante		pt-BR														
+A	0	R3		3 · essencial		pt-BR														
+Q	Q	A09com	(A09fam.NAOK == 'H' or A09fam.NAOK == 'M')	Comentários (opcionais), por propriedade		pt-BR		N	N											
+SQ		P1a	1	P1a Aninhamento exato		pt-BR														
+SQ		P1b	1	P1b Hierarquia aproximada		pt-BR														
+SQ		P2	1	P2 Alinhamento raster		pt-BR														
+SQ		P3	1	P3 Geocódigo por prefixo		pt-BR														
+SQ		P4	1	P4 Vizinhança uniforme		pt-BR														
+SQ		P5	1	P5 Orientação congruente		pt-BR														
+SQ		P6	1	P6 Compacidade		pt-BR														
+SQ		P7	1	P7 Subpavimentação intervalar		pt-BR														
+SQ		P8	1	P8 Legado cartográfico		pt-BR														
+G	12	2C · A10 · Demarcação por cobertura interna	1	<p>Representação de um imóvel ou limite como três conjuntos de células: certamente internas, de fronteira indeterminada e certamente externas. O núcleo interno pode ser registrado como incontroverso, e a análise mais custosa fica restrita à faixa de fronteira.</p>		pt-BR														
+Q	L	A10fam	1	Sua familiaridade com esta aplicação		pt-BR		Y	N											
+A	0	H		alta		pt-BR														
+A	0	M		média		pt-BR														
+A	0	L		baixa (avançar para a próxima aplicação)		pt-BR														
+Q	F	A10rel	(A10fam.NAOK == 'H' or A10fam.NAOK == 'M')	Relevância de cada propriedade para esta aplicação		pt-BR		N	N											30
+SQ		P1a	1	P1a Aninhamento exato		pt-BR														
+SQ		P1b	1	P1b Hierarquia aproximada		pt-BR														
+SQ		P2	1	P2 Alinhamento raster		pt-BR														
+SQ		P3	1	P3 Geocódigo por prefixo		pt-BR														
+SQ		P4	1	P4 Vizinhança uniforme		pt-BR														
+SQ		P5	1	P5 Orientação congruente		pt-BR														
+SQ		P6	1	P6 Compacidade		pt-BR														
+SQ		P7	1	P7 Subpavimentação intervalar		pt-BR														
+SQ		P8	1	P8 Legado cartográfico		pt-BR														
+A	0	R0		0 · irrelevante		pt-BR														
+A	0	R1		1 · desejável		pt-BR														
+A	0	R2		2 · importante		pt-BR														
+A	0	R3		3 · essencial		pt-BR														
+Q	Q	A10com	(A10fam.NAOK == 'H' or A10fam.NAOK == 'M')	Comentários (opcionais), por propriedade		pt-BR		N	N											
+SQ		P1a	1	P1a Aninhamento exato		pt-BR														
+SQ		P1b	1	P1b Hierarquia aproximada		pt-BR														
+SQ		P2	1	P2 Alinhamento raster		pt-BR														
+SQ		P3	1	P3 Geocódigo por prefixo		pt-BR														
+SQ		P4	1	P4 Vizinhança uniforme		pt-BR														
+SQ		P5	1	P5 Orientação congruente		pt-BR														
+SQ		P6	1	P6 Compacidade		pt-BR														
+SQ		P7	1	P7 Subpavimentação intervalar		pt-BR														
+SQ		P8	1	P8 Legado cartográfico		pt-BR														
+G	13	2C · A11 · Detecção de sobreposição cadastral	1	<p>Comparação, em escala nacional, das coberturas internas de imóveis distintos. Qualquer interseção indica inconsistência de títulos ou levantamentos.</p>		pt-BR														
+Q	L	A11fam	1	Sua familiaridade com esta aplicação		pt-BR		Y	N											
+A	0	H		alta		pt-BR														
+A	0	M		média		pt-BR														
+A	0	L		baixa (avançar para a próxima aplicação)		pt-BR														
+Q	F	A11rel	(A11fam.NAOK == 'H' or A11fam.NAOK == 'M')	Relevância de cada propriedade para esta aplicação		pt-BR		N	N											30
+SQ		P1a	1	P1a Aninhamento exato		pt-BR														
+SQ		P1b	1	P1b Hierarquia aproximada		pt-BR														
+SQ		P2	1	P2 Alinhamento raster		pt-BR														
+SQ		P3	1	P3 Geocódigo por prefixo		pt-BR														
+SQ		P4	1	P4 Vizinhança uniforme		pt-BR														
+SQ		P5	1	P5 Orientação congruente		pt-BR														
+SQ		P6	1	P6 Compacidade		pt-BR														
+SQ		P7	1	P7 Subpavimentação intervalar		pt-BR														
+SQ		P8	1	P8 Legado cartográfico		pt-BR														
+A	0	R0		0 · irrelevante		pt-BR														
+A	0	R1		1 · desejável		pt-BR														
+A	0	R2		2 · importante		pt-BR														
+A	0	R3		3 · essencial		pt-BR														
+Q	Q	A11com	(A11fam.NAOK == 'H' or A11fam.NAOK == 'M')	Comentários (opcionais), por propriedade		pt-BR		N	N											
+SQ		P1a	1	P1a Aninhamento exato		pt-BR														
+SQ		P1b	1	P1b Hierarquia aproximada		pt-BR														
+SQ		P2	1	P2 Alinhamento raster		pt-BR														
+SQ		P3	1	P3 Geocódigo por prefixo		pt-BR														
+SQ		P4	1	P4 Vizinhança uniforme		pt-BR														
+SQ		P5	1	P5 Orientação congruente		pt-BR														
+SQ		P6	1	P6 Compacidade		pt-BR														
+SQ		P7	1	P7 Subpavimentação intervalar		pt-BR														
+SQ		P8	1	P8 Legado cartográfico		pt-BR														
+G	14	2C · A12 · Federação de dados	1	<p>Uso do código da célula como chave comum entre cadastros, estatísticas, dados ambientais e endereçamento, com cada órgão mantendo sua própria base e seu próprio sigilo.</p>		pt-BR														
+Q	L	A12fam	1	Sua familiaridade com esta aplicação		pt-BR		Y	N											
+A	0	H		alta		pt-BR														
+A	0	M		média		pt-BR														
+A	0	L		baixa (avançar para a próxima aplicação)		pt-BR														
+Q	F	A12rel	(A12fam.NAOK == 'H' or A12fam.NAOK == 'M')	Relevância de cada propriedade para esta aplicação		pt-BR		N	N											30
+SQ		P1a	1	P1a Aninhamento exato		pt-BR														
+SQ		P1b	1	P1b Hierarquia aproximada		pt-BR														
+SQ		P2	1	P2 Alinhamento raster		pt-BR														
+SQ		P3	1	P3 Geocódigo por prefixo		pt-BR														
+SQ		P4	1	P4 Vizinhança uniforme		pt-BR														
+SQ		P5	1	P5 Orientação congruente		pt-BR														
+SQ		P6	1	P6 Compacidade		pt-BR														
+SQ		P7	1	P7 Subpavimentação intervalar		pt-BR														
+SQ		P8	1	P8 Legado cartográfico		pt-BR														
+A	0	R0		0 · irrelevante		pt-BR														
+A	0	R1		1 · desejável		pt-BR														
+A	0	R2		2 · importante		pt-BR														
+A	0	R3		3 · essencial		pt-BR														
+Q	Q	A12com	(A12fam.NAOK == 'H' or A12fam.NAOK == 'M')	Comentários (opcionais), por propriedade		pt-BR		N	N											
+SQ		P1a	1	P1a Aninhamento exato		pt-BR														
+SQ		P1b	1	P1b Hierarquia aproximada		pt-BR														
+SQ		P2	1	P2 Alinhamento raster		pt-BR														
+SQ		P3	1	P3 Geocódigo por prefixo		pt-BR														
+SQ		P4	1	P4 Vizinhança uniforme		pt-BR														
+SQ		P5	1	P5 Orientação congruente		pt-BR														
+SQ		P6	1	P6 Compacidade		pt-BR														
+SQ		P7	1	P7 Subpavimentação intervalar		pt-BR														
+SQ		P8	1	P8 Legado cartográfico		pt-BR														
+G	15	2C · A13 · Particionamento distribuído	1	<p>Organização do armazenamento e da responsabilidade institucional por subdivisões territoriais, a partir de prefixos de código.</p>		pt-BR														
+Q	L	A13fam	1	Sua familiaridade com esta aplicação		pt-BR		Y	N											
+A	0	H		alta		pt-BR														
+A	0	M		média		pt-BR														
+A	0	L		baixa (avançar para a próxima aplicação)		pt-BR														
+Q	F	A13rel	(A13fam.NAOK == 'H' or A13fam.NAOK == 'M')	Relevância de cada propriedade para esta aplicação		pt-BR		N	N											30
+SQ		P1a	1	P1a Aninhamento exato		pt-BR														
+SQ		P1b	1	P1b Hierarquia aproximada		pt-BR														
+SQ		P2	1	P2 Alinhamento raster		pt-BR														
+SQ		P3	1	P3 Geocódigo por prefixo		pt-BR														
+SQ		P4	1	P4 Vizinhança uniforme		pt-BR														
+SQ		P5	1	P5 Orientação congruente		pt-BR														
+SQ		P6	1	P6 Compacidade		pt-BR														
+SQ		P7	1	P7 Subpavimentação intervalar		pt-BR														
+SQ		P8	1	P8 Legado cartográfico		pt-BR														
+A	0	R0		0 · irrelevante		pt-BR														
+A	0	R1		1 · desejável		pt-BR														
+A	0	R2		2 · importante		pt-BR														
+A	0	R3		3 · essencial		pt-BR														
+Q	Q	A13com	(A13fam.NAOK == 'H' or A13fam.NAOK == 'M')	Comentários (opcionais), por propriedade		pt-BR		N	N											
+SQ		P1a	1	P1a Aninhamento exato		pt-BR														
+SQ		P1b	1	P1b Hierarquia aproximada		pt-BR														
+SQ		P2	1	P2 Alinhamento raster		pt-BR														
+SQ		P3	1	P3 Geocódigo por prefixo		pt-BR														
+SQ		P4	1	P4 Vizinhança uniforme		pt-BR														
+SQ		P5	1	P5 Orientação congruente		pt-BR														
+SQ		P6	1	P6 Compacidade		pt-BR														
+SQ		P7	1	P7 Subpavimentação intervalar		pt-BR														
+SQ		P8	1	P8 Legado cartográfico		pt-BR														
+G	16	2C · A14 · Triagem de risco	1	<p>Triagem rápida de áreas sujeitas a desastres, riscos ambientais ou irregularidades, para priorizar análises detalhadas.</p>		pt-BR														
+Q	L	A14fam	1	Sua familiaridade com esta aplicação		pt-BR		Y	N											
+A	0	H		alta		pt-BR														
+A	0	M		média		pt-BR														
+A	0	L		baixa (avançar para a próxima aplicação)		pt-BR														
+Q	F	A14rel	(A14fam.NAOK == 'H' or A14fam.NAOK == 'M')	Relevância de cada propriedade para esta aplicação		pt-BR		N	N											30
+SQ		P1a	1	P1a Aninhamento exato		pt-BR														
+SQ		P1b	1	P1b Hierarquia aproximada		pt-BR														
+SQ		P2	1	P2 Alinhamento raster		pt-BR														
+SQ		P3	1	P3 Geocódigo por prefixo		pt-BR														
+SQ		P4	1	P4 Vizinhança uniforme		pt-BR														
+SQ		P5	1	P5 Orientação congruente		pt-BR														
+SQ		P6	1	P6 Compacidade		pt-BR														
+SQ		P7	1	P7 Subpavimentação intervalar		pt-BR														
+SQ		P8	1	P8 Legado cartográfico		pt-BR														
+A	0	R0		0 · irrelevante		pt-BR														
+A	0	R1		1 · desejável		pt-BR														
+A	0	R2		2 · importante		pt-BR														
+A	0	R3		3 · essencial		pt-BR														
+Q	Q	A14com	(A14fam.NAOK == 'H' or A14fam.NAOK == 'M')	Comentários (opcionais), por propriedade		pt-BR		N	N											
+SQ		P1a	1	P1a Aninhamento exato		pt-BR														
+SQ		P1b	1	P1b Hierarquia aproximada		pt-BR														
+SQ		P2	1	P2 Alinhamento raster		pt-BR														
+SQ		P3	1	P3 Geocódigo por prefixo		pt-BR														
+SQ		P4	1	P4 Vizinhança uniforme		pt-BR														
+SQ		P5	1	P5 Orientação congruente		pt-BR														
+SQ		P6	1	P6 Compacidade		pt-BR														
+SQ		P7	1	P7 Subpavimentação intervalar		pt-BR														
+SQ		P8	1	P8 Legado cartográfico		pt-BR														
+G	17	2D — Exigência de aninhamento exato	1	<p>Algumas aplicações produzem resultados com efeito jurídico ou contábil, ou dependem de uma chave única. Nelas, uma grade sem aninhamento exato (P1a) pode ser inadmissível, qualquer que seja seu desempenho nos demais critérios.</p><p>Para cada aplicação, indique se ela <strong>exige</strong> aninhamento exato, isto é, se uma hierarquia apenas aproximada a tornaria inviável, e não apenas pior. Aparecem abaixo apenas as aplicações com que você declarou familiaridade alta ou média.</p>		pt-BR														
+Q	F	NEST	1	A aplicação exige aninhamento exato?		pt-BR		N	N											50
+SQ		A01	(A01fam.NAOK == 'H' or A01fam.NAOK == 'M')	A01 Estatísticas oficiais e controle de divulgação		pt-BR														
+SQ		A02	(A02fam.NAOK == 'H' or A02fam.NAOK == 'M')	A02 Comparabilidade intercensitária		pt-BR														
+SQ		A03	(A03fam.NAOK == 'H' or A03fam.NAOK == 'M')	A03 Sensoriamento remoto		pt-BR														
+SQ		A04	(A04fam.NAOK == 'H' or A04fam.NAOK == 'M')	A04 Cadastros ambientais e rurais		pt-BR														
+SQ		A05	(A05fam.NAOK == 'H' or A05fam.NAOK == 'M')	A05 Indicadores municipais e setoriais		pt-BR														
+SQ		A06	(A06fam.NAOK == 'H' or A06fam.NAOK == 'M')	A06 Vigilância epidemiológica		pt-BR														
+SQ		A07	(A07fam.NAOK == 'H' or A07fam.NAOK == 'M')	A07 Endereçamento e códigos postais		pt-BR														
+SQ		A08	(A08fam.NAOK == 'H' or A08fam.NAOK == 'M')	A08 Logística e mobilidade		pt-BR														
+SQ		A09	(A09fam.NAOK == 'H' or A09fam.NAOK == 'M')	A09 Serviços de emergência		pt-BR														
+SQ		A10	(A10fam.NAOK == 'H' or A10fam.NAOK == 'M')	A10 Demarcação por cobertura interna		pt-BR														
+SQ		A11	(A11fam.NAOK == 'H' or A11fam.NAOK == 'M')	A11 Detecção de sobreposição cadastral		pt-BR														
+SQ		A12	(A12fam.NAOK == 'H' or A12fam.NAOK == 'M')	A12 Federação de dados		pt-BR														
+SQ		A13	(A13fam.NAOK == 'H' or A13fam.NAOK == 'M')	A13 Particionamento distribuído		pt-BR														
+SQ		A14	(A14fam.NAOK == 'H' or A14fam.NAOK == 'M')	A14 Triagem de risco		pt-BR														
+A	0	Y		sim		pt-BR														
+A	0	N		não		pt-BR														
+A	0	U		não sei		pt-BR														
+Q	Q	NESTj	1	Justificativas (opcionais), por aplicação		pt-BR		N	N											
+SQ		A01	(A01fam.NAOK == 'H' or A01fam.NAOK == 'M')	A01 Estatísticas oficiais e controle de divulgação		pt-BR														
+SQ		A02	(A02fam.NAOK == 'H' or A02fam.NAOK == 'M')	A02 Comparabilidade intercensitária		pt-BR														
+SQ		A03	(A03fam.NAOK == 'H' or A03fam.NAOK == 'M')	A03 Sensoriamento remoto		pt-BR														
+SQ		A04	(A04fam.NAOK == 'H' or A04fam.NAOK == 'M')	A04 Cadastros ambientais e rurais		pt-BR														
+SQ		A05	(A05fam.NAOK == 'H' or A05fam.NAOK == 'M')	A05 Indicadores municipais e setoriais		pt-BR														
+SQ		A06	(A06fam.NAOK == 'H' or A06fam.NAOK == 'M')	A06 Vigilância epidemiológica		pt-BR														
+SQ		A07	(A07fam.NAOK == 'H' or A07fam.NAOK == 'M')	A07 Endereçamento e códigos postais		pt-BR														
+SQ		A08	(A08fam.NAOK == 'H' or A08fam.NAOK == 'M')	A08 Logística e mobilidade		pt-BR														
+SQ		A09	(A09fam.NAOK == 'H' or A09fam.NAOK == 'M')	A09 Serviços de emergência		pt-BR														
+SQ		A10	(A10fam.NAOK == 'H' or A10fam.NAOK == 'M')	A10 Demarcação por cobertura interna		pt-BR														
+SQ		A11	(A11fam.NAOK == 'H' or A11fam.NAOK == 'M')	A11 Detecção de sobreposição cadastral		pt-BR														
+SQ		A12	(A12fam.NAOK == 'H' or A12fam.NAOK == 'M')	A12 Federação de dados		pt-BR														
+SQ		A13	(A13fam.NAOK == 'H' or A13fam.NAOK == 'M')	A13 Particionamento distribuído		pt-BR														
+SQ		A14	(A14fam.NAOK == 'H' or A14fam.NAOK == 'M')	A14 Triagem de risco		pt-BR														
+G	18	2E — Propostas	1	<p>A avaliação só é confiável se representar bem as necessidades de todos os usuários. <strong>Aplicações em que a vizinhança, a distância ou a forma arredondada das células sejam decisivas são expressamente bem-vindas.</strong> As propostas serão submetidas a todo o painel na rodada seguinte.</p>		pt-BR														
+Q	T	NEWA	1	<strong>2E1. Aplicações que faltam.</strong> Para cada uma: nome, breve descrição, usuários institucionais e as propriedades que você considera decisivas.		pt-BR		N	N										6	
+Q	T	NEED	1	<strong>2E2. Necessidades não cobertas.</strong> Alguma exigência prática das suas aplicações não está representada pelas propriedades P1a a P8? Descreva-a em termos de uso; o painel de geometria a traduzirá em propriedade, se for o caso.		pt-BR		N	N										6	
+Q	T	DEFA	1	<strong>2E3. Alguma aplicação da lista está mal definida, duplicada ou deveria ser dividida?</strong>		pt-BR		N	N										6	
+Q	T	COMM	1	<strong>2E4. Outros comentários, inclusive sobre possíveis vieses na concepção desta consulta</strong>		pt-BR		N	N										6	
+G	1	2A — Profile and consent	1	<p>While the consultation is open, your answers are identified only by a pseudonymous code (R001, R002, …) assigned by the coordination, and no name is disclosed, not even to the other panellists. The mapping between codes and people, as well as your contact details, is kept only in the consultation database, outside the public repository, for as long as necessary to run the consultation and publish its results, in accordance with the Brazilian General Data Protection Law (LGPD, Law 13.709/2018). Those who answer both questionnaires keep the same code. After closure, disclosure follows the level you choose in question 2A6.</p>		en														
+Q	*	RID	1	Respondent code		en		N	N			1	{TOKEN:ATTRIBUTE_1}							
+Q	L	UGRP	1	<strong>2A1. Main user group</strong>		en		Y	Y											
+A	0	OST		Official statistics		en														
+A	0	CAD		Cadastre and land registry		en														
+A	0	RS		Remote sensing and environmental monitoring		en														
+A	0	ADL		Addressing, postal services and logistics		en														
+A	0	HEM		Health surveillance and emergency services		en														
+A	0	ACA		Academia (GIS, cartography, spatial data infrastructure)		en														
+Q	L	INST	1	<strong>2A2. Type of institution</strong>		en		Y	N											
+A	0	FED		national public agency		en														
+A	0	STA		state or provincial		en														
+A	0	MUN		municipal		en														
+A	0	UNI		university or research institute		en														
+A	0	COM		company		en														
+A	0	CSO		civil society organisation		en														
+A	0	INT		international organisation		en														
+A	0	OTH		other		en														
+Q	L	EXPER	1	<strong>2A3. Years of experience in the field</strong>		en		Y	N											
+A	0	E1		less than 5		en														
+A	0	E2		5 to 10		en														
+A	0	E3		11 to 20		en														
+A	0	E4		more than 20		en														
+Q	M	GRIDS	1	<strong>2A4. Have you worked with discrete grids?</strong> (tick all that apply)		en		Y	N									NONE		
+SQ		STAT	1	statistical grids (IBGE, INSPIRE etc.)		en														
+SQ		HEX	1	H3 or other hexagonal grids		en														
+SQ		QUAD	1	S2, quadtrees or tiles		en														
+SQ		GEOC	1	geocodes (Geohash, Plus Codes, DIGIPIN etc.)		en														
+SQ		NONE	1	no		en														
+Q	L	COI	1	<strong>2A5. Conflict of interest.</strong> Do you have, currently or in the last three years, any link with a company or institution that supplies solutions based on geocode systems and/or grid systems? Consider employment, partnership or ownership, consultancy, funding or participation in development.	This declaration is mandatory. It is published in aggregate by group for anonymous participants and individually for the others.	en		Y	N											
+A	0	N		No		en														
+A	0	Y		Yes		en														
+Q	T	COIdesc	COI.NAOK == 'Y'	Describe the nature of the link and the solution involved.		en		Y	N										3	
+Q	L	DISC	1	<strong>2A6. Disclosure level after the consultation closes</strong>	You may change the chosen level until the consultation closes. Once published, names and answers become part of the permanent record of the standard and cannot be withdrawn. For the named and public levels, the name and institution given in the invitation are used; to correct them, write to the coordination. Breakdowns of results by group or by item are published only when they include at least three anonymous respondents, so that their answers cannot be deduced by subtraction.	en		Y	N											
+A	0	ANON		<strong>Anonymous.</strong> Only my group is disclosed.		en														
+A	0	NAMED		<strong>Named.</strong> My name and institution appear in the public list of the panel, but my answers are not attributed to me.		en														
+A	0	PUBL		<strong>Public.</strong> My name, institution, answers and justifications are published individually.		en														
+Q	M	CONS	1	<strong>2A7. Consent</strong>		en		Y	N											
+SQ		ok	1	I have read and agree to take part. I authorise the use of my answers and justifications in the reports of the consultation, according to the disclosure level chosen above.		en														
+G	2	2B — Definitions	1			en														
+Q	X	DEFStab	1	"<h4>Relevance scale</h4><table class=""table table-bordered table-condensed""><thead><tr><th>Grade</th><th>Meaning</th></tr></thead><tbody><tr><td><strong>0</strong></td><td><strong>Irrelevant:</strong> the application works equally well without this property.</td></tr><tr><td><strong>1</strong></td><td><strong>Desirable:</strong> it helps, but its absence can be worked around without significant cost.</td></tr><tr><td><strong>2</strong></td><td><strong>Important:</strong> its absence imposes significant cost, rework or loss of quality.</td></tr><tr><td><strong>3</strong></td><td><strong>Essential:</strong> without it, the application is compromised or requires another solution.</td></tr></tbody></table><h4>Properties</h4><table class=""table table-bordered table-condensed""><thead><tr><th>Code</th><th>Property</th><th>What it means</th></tr></thead><tbody><tr><td>P1a</td><td>Exact nesting between levels</td><td>Each cell of a level is exactly the union of its child cells, with no gaps or overlaps.</td></tr><tr><td>P1b</td><td>Usable approximate hierarchy</td><td>There is a queryable parent-child relation between levels, even if the edges do not coincide exactly.</td></tr><tr><td>P2</td><td>Raster alignment</td><td>Cells coincide with image pixels and tiles without the need for resampling.</td></tr><tr><td>P3</td><td>Prefix geocode</td><td>Truncating a cell code yields exactly the code of the parent cell; nearby codes tend to indicate nearby places.</td></tr><tr><td>P4</td><td>Uniform neighbourhood</td><td>All neighbouring cells are at the same distance and share an edge.</td></tr><tr><td>P5</td><td>Congruent orientation</td><td>All cells are identical to one another by simple translation, with no alternating orientation.</td></tr><tr><td>P6</td><td>Compactness</td><td>The cell is close to a circle, that is, it has little perimeter relative to its area.</td></tr><tr><td>P7</td><td>Interval subpaving</td><td>Cells are Cartesian products of coordinate intervals, which allows interval arithmetic and a guaranteed inner cover of a polygon.</td></tr><tr><td>P8</td><td>Compatibility with the cartographic legacy</td><td>Cells fit with map sheets, web service tiles and existing statistical grids.</td></tr></tbody></table><p>On the next 14 pages, one per application, first state your familiarity with the application. <strong>If your familiarity is low, move on to the next one.</strong> Otherwise, give each property a grade from 0 to 3. Comments are optional, but very useful for grades 0 and 3 and whenever you disagree with the description of the application.</p>"		en		N	N											
+G	3	2C · A01 · Official statistics and disclosure control	1	<p>Gridded dissemination of data, with adaptive aggregation of cells until the minimum number of units that protects statistical confidentiality is reached.</p>		en														
+Q	L	A01fam	1	Your familiarity with this application		en		Y	N											
+A	0	H		high		en														
+A	0	M		medium		en														
+A	0	L		low (move on to the next application)		en														
+Q	F	A01rel	(A01fam.NAOK == 'H' or A01fam.NAOK == 'M')	Relevance of each property to this application		en		N	N											30
+SQ		P1a	1	P1a Exact nesting		en														
+SQ		P1b	1	P1b Approximate hierarchy		en														
+SQ		P2	1	P2 Raster alignment		en														
+SQ		P3	1	P3 Prefix geocode		en														
+SQ		P4	1	P4 Uniform neighbourhood		en														
+SQ		P5	1	P5 Congruent orientation		en														
+SQ		P6	1	P6 Compactness		en														
+SQ		P7	1	P7 Interval subpaving		en														
+SQ		P8	1	P8 Cartographic legacy		en														
+A	0	R0		0 · irrelevant		en														
+A	0	R1		1 · desirable		en														
+A	0	R2		2 · important		en														
+A	0	R3		3 · essential		en														
+Q	Q	A01com	(A01fam.NAOK == 'H' or A01fam.NAOK == 'M')	Comments (optional), by property		en		N	N											
+SQ		P1a	1	P1a Exact nesting		en														
+SQ		P1b	1	P1b Approximate hierarchy		en														
+SQ		P2	1	P2 Raster alignment		en														
+SQ		P3	1	P3 Prefix geocode		en														
+SQ		P4	1	P4 Uniform neighbourhood		en														
+SQ		P5	1	P5 Congruent orientation		en														
+SQ		P6	1	P6 Compactness		en														
+SQ		P7	1	P7 Interval subpaving		en														
+SQ		P8	1	P8 Cartographic legacy		en														
+G	4	2C · A02 · Inter-census comparability	1	<p>Cells fixed in time, which allow successive censuses to be compared regardless of changes in census tracts and municipal boundaries.</p>		en														
+Q	L	A02fam	1	Your familiarity with this application		en		Y	N											
+A	0	H		high		en														
+A	0	M		medium		en														
+A	0	L		low (move on to the next application)		en														
+Q	F	A02rel	(A02fam.NAOK == 'H' or A02fam.NAOK == 'M')	Relevance of each property to this application		en		N	N											30
+SQ		P1a	1	P1a Exact nesting		en														
+SQ		P1b	1	P1b Approximate hierarchy		en														
+SQ		P2	1	P2 Raster alignment		en														
+SQ		P3	1	P3 Prefix geocode		en														
+SQ		P4	1	P4 Uniform neighbourhood		en														
+SQ		P5	1	P5 Congruent orientation		en														
+SQ		P6	1	P6 Compactness		en														
+SQ		P7	1	P7 Interval subpaving		en														
+SQ		P8	1	P8 Cartographic legacy		en														
+A	0	R0		0 · irrelevant		en														
+A	0	R1		1 · desirable		en														
+A	0	R2		2 · important		en														
+A	0	R3		3 · essential		en														
+Q	Q	A02com	(A02fam.NAOK == 'H' or A02fam.NAOK == 'M')	Comments (optional), by property		en		N	N											
+SQ		P1a	1	P1a Exact nesting		en														
+SQ		P1b	1	P1b Approximate hierarchy		en														
+SQ		P2	1	P2 Raster alignment		en														
+SQ		P3	1	P3 Prefix geocode		en														
+SQ		P4	1	P4 Uniform neighbourhood		en														
+SQ		P5	1	P5 Congruent orientation		en														
+SQ		P6	1	P6 Compactness		en														
+SQ		P7	1	P7 Interval subpaving		en														
+SQ		P8	1	P8 Cartographic legacy		en														
+G	5	2C · A03 · Remote sensing	1	<p>Integration of satellite imagery and derived products (land use, deforestation, vegetation indices) into the national grid.</p>		en														
+Q	L	A03fam	1	Your familiarity with this application		en		Y	N											
+A	0	H		high		en														
+A	0	M		medium		en														
+A	0	L		low (move on to the next application)		en														
+Q	F	A03rel	(A03fam.NAOK == 'H' or A03fam.NAOK == 'M')	Relevance of each property to this application		en		N	N											30
+SQ		P1a	1	P1a Exact nesting		en														
+SQ		P1b	1	P1b Approximate hierarchy		en														
+SQ		P2	1	P2 Raster alignment		en														
+SQ		P3	1	P3 Prefix geocode		en														
+SQ		P4	1	P4 Uniform neighbourhood		en														
+SQ		P5	1	P5 Congruent orientation		en														
+SQ		P6	1	P6 Compactness		en														
+SQ		P7	1	P7 Interval subpaving		en														
+SQ		P8	1	P8 Cartographic legacy		en														
+A	0	R0		0 · irrelevant		en														
+A	0	R1		1 · desirable		en														
+A	0	R2		2 · important		en														
+A	0	R3		3 · essential		en														
+Q	Q	A03com	(A03fam.NAOK == 'H' or A03fam.NAOK == 'M')	Comments (optional), by property		en		N	N											
+SQ		P1a	1	P1a Exact nesting		en														
+SQ		P1b	1	P1b Approximate hierarchy		en														
+SQ		P2	1	P2 Raster alignment		en														
+SQ		P3	1	P3 Prefix geocode		en														
+SQ		P4	1	P4 Uniform neighbourhood		en														
+SQ		P5	1	P5 Congruent orientation		en														
+SQ		P6	1	P6 Compactness		en														
+SQ		P7	1	P7 Interval subpaving		en														
+SQ		P8	1	P8 Cartographic legacy		en														
+G	6	2C · A04 · Environmental and rural land registries	1	<p>Representation and aggregation of declared polygons, such as those of Brazil's Rural Environmental Registry (CAR), and their combination with environmental data.</p>		en														
+Q	L	A04fam	1	Your familiarity with this application		en		Y	N											
+A	0	H		high		en														
+A	0	M		medium		en														
+A	0	L		low (move on to the next application)		en														
+Q	F	A04rel	(A04fam.NAOK == 'H' or A04fam.NAOK == 'M')	Relevance of each property to this application		en		N	N											30
+SQ		P1a	1	P1a Exact nesting		en														
+SQ		P1b	1	P1b Approximate hierarchy		en														
+SQ		P2	1	P2 Raster alignment		en														
+SQ		P3	1	P3 Prefix geocode		en														
+SQ		P4	1	P4 Uniform neighbourhood		en														
+SQ		P5	1	P5 Congruent orientation		en														
+SQ		P6	1	P6 Compactness		en														
+SQ		P7	1	P7 Interval subpaving		en														
+SQ		P8	1	P8 Cartographic legacy		en														
+A	0	R0		0 · irrelevant		en														
+A	0	R1		1 · desirable		en														
+A	0	R2		2 · important		en														
+A	0	R3		3 · essential		en														
+Q	Q	A04com	(A04fam.NAOK == 'H' or A04fam.NAOK == 'M')	Comments (optional), by property		en		N	N											
+SQ		P1a	1	P1a Exact nesting		en														
+SQ		P1b	1	P1b Approximate hierarchy		en														
+SQ		P2	1	P2 Raster alignment		en														
+SQ		P3	1	P3 Prefix geocode		en														
+SQ		P4	1	P4 Uniform neighbourhood		en														
+SQ		P5	1	P5 Congruent orientation		en														
+SQ		P6	1	P6 Compactness		en														
+SQ		P7	1	P7 Interval subpaving		en														
+SQ		P8	1	P8 Cartographic legacy		en														
+G	7	2C · A05 · Municipal and sectoral indicators	1	<p>Health, education, social assistance and urban planning indicators that are comparable across municipalities of different sizes and boundaries.</p>		en														
+Q	L	A05fam	1	Your familiarity with this application		en		Y	N											
+A	0	H		high		en														
+A	0	M		medium		en														
+A	0	L		low (move on to the next application)		en														
+Q	F	A05rel	(A05fam.NAOK == 'H' or A05fam.NAOK == 'M')	Relevance of each property to this application		en		N	N											30
+SQ		P1a	1	P1a Exact nesting		en														
+SQ		P1b	1	P1b Approximate hierarchy		en														
+SQ		P2	1	P2 Raster alignment		en														
+SQ		P3	1	P3 Prefix geocode		en														
+SQ		P4	1	P4 Uniform neighbourhood		en														
+SQ		P5	1	P5 Congruent orientation		en														
+SQ		P6	1	P6 Compactness		en														
+SQ		P7	1	P7 Interval subpaving		en														
+SQ		P8	1	P8 Cartographic legacy		en														
+A	0	R0		0 · irrelevant		en														
+A	0	R1		1 · desirable		en														
+A	0	R2		2 · important		en														
+A	0	R3		3 · essential		en														
+Q	Q	A05com	(A05fam.NAOK == 'H' or A05fam.NAOK == 'M')	Comments (optional), by property		en		N	N											
+SQ		P1a	1	P1a Exact nesting		en														
+SQ		P1b	1	P1b Approximate hierarchy		en														
+SQ		P2	1	P2 Raster alignment		en														
+SQ		P3	1	P3 Prefix geocode		en														
+SQ		P4	1	P4 Uniform neighbourhood		en														
+SQ		P5	1	P5 Congruent orientation		en														
+SQ		P6	1	P6 Compactness		en														
+SQ		P7	1	P7 Interval subpaving		en														
+SQ		P8	1	P8 Cartographic legacy		en														
+G	8	2C · A06 · Epidemiological surveillance	1	<p>Analysis of disease diffusion, cluster detection and modelling of spread between neighbouring areas.</p>		en														
+Q	L	A06fam	1	Your familiarity with this application		en		Y	N											
+A	0	H		high		en														
+A	0	M		medium		en														
+A	0	L		low (move on to the next application)		en														
+Q	F	A06rel	(A06fam.NAOK == 'H' or A06fam.NAOK == 'M')	Relevance of each property to this application		en		N	N											30
+SQ		P1a	1	P1a Exact nesting		en														
+SQ		P1b	1	P1b Approximate hierarchy		en														
+SQ		P2	1	P2 Raster alignment		en														
+SQ		P3	1	P3 Prefix geocode		en														
+SQ		P4	1	P4 Uniform neighbourhood		en														
+SQ		P5	1	P5 Congruent orientation		en														
+SQ		P6	1	P6 Compactness		en														
+SQ		P7	1	P7 Interval subpaving		en														
+SQ		P8	1	P8 Cartographic legacy		en														
+A	0	R0		0 · irrelevant		en														
+A	0	R1		1 · desirable		en														
+A	0	R2		2 · important		en														
+A	0	R3		3 · essential		en														
+Q	Q	A06com	(A06fam.NAOK == 'H' or A06fam.NAOK == 'M')	Comments (optional), by property		en		N	N											
+SQ		P1a	1	P1a Exact nesting		en														
+SQ		P1b	1	P1b Approximate hierarchy		en														
+SQ		P2	1	P2 Raster alignment		en														
+SQ		P3	1	P3 Prefix geocode		en														
+SQ		P4	1	P4 Uniform neighbourhood		en														
+SQ		P5	1	P5 Congruent orientation		en														
+SQ		P6	1	P6 Compactness		en														
+SQ		P7	1	P7 Interval subpaving		en														
+SQ		P8	1	P8 Cartographic legacy		en														
+G	9	2C · A07 · Addressing and postal codes	1	<p>A hierarchical postal code or geocode, whether new or the reform of an existing system (such as Brazil's CEP), in which the code identifies the delivery region.</p>		en														
+Q	L	A07fam	1	Your familiarity with this application		en		Y	N											
+A	0	H		high		en														
+A	0	M		medium		en														
+A	0	L		low (move on to the next application)		en														
+Q	F	A07rel	(A07fam.NAOK == 'H' or A07fam.NAOK == 'M')	Relevance of each property to this application		en		N	N											30
+SQ		P1a	1	P1a Exact nesting		en														
+SQ		P1b	1	P1b Approximate hierarchy		en														
+SQ		P2	1	P2 Raster alignment		en														
+SQ		P3	1	P3 Prefix geocode		en														
+SQ		P4	1	P4 Uniform neighbourhood		en														
+SQ		P5	1	P5 Congruent orientation		en														
+SQ		P6	1	P6 Compactness		en														
+SQ		P7	1	P7 Interval subpaving		en														
+SQ		P8	1	P8 Cartographic legacy		en														
+A	0	R0		0 · irrelevant		en														
+A	0	R1		1 · desirable		en														
+A	0	R2		2 · important		en														
+A	0	R3		3 · essential		en														
+Q	Q	A07com	(A07fam.NAOK == 'H' or A07fam.NAOK == 'M')	Comments (optional), by property		en		N	N											
+SQ		P1a	1	P1a Exact nesting		en														
+SQ		P1b	1	P1b Approximate hierarchy		en														
+SQ		P2	1	P2 Raster alignment		en														
+SQ		P3	1	P3 Prefix geocode		en														
+SQ		P4	1	P4 Uniform neighbourhood		en														
+SQ		P5	1	P5 Congruent orientation		en														
+SQ		P6	1	P6 Compactness		en														
+SQ		P7	1	P7 Interval subpaving		en														
+SQ		P8	1	P8 Cartographic legacy		en														
+G	10	2C · A08 · Logistics and mobility	1	<p>Routing, origin-destination flows, accessibility analysis and distribution of freight and passengers.</p>		en														
+Q	L	A08fam	1	Your familiarity with this application		en		Y	N											
+A	0	H		high		en														
+A	0	M		medium		en														
+A	0	L		low (move on to the next application)		en														
+Q	F	A08rel	(A08fam.NAOK == 'H' or A08fam.NAOK == 'M')	Relevance of each property to this application		en		N	N											30
+SQ		P1a	1	P1a Exact nesting		en														
+SQ		P1b	1	P1b Approximate hierarchy		en														
+SQ		P2	1	P2 Raster alignment		en														
+SQ		P3	1	P3 Prefix geocode		en														
+SQ		P4	1	P4 Uniform neighbourhood		en														
+SQ		P5	1	P5 Congruent orientation		en														
+SQ		P6	1	P6 Compactness		en														
+SQ		P7	1	P7 Interval subpaving		en														
+SQ		P8	1	P8 Cartographic legacy		en														
+A	0	R0		0 · irrelevant		en														
+A	0	R1		1 · desirable		en														
+A	0	R2		2 · important		en														
+A	0	R3		3 · essential		en														
+Q	Q	A08com	(A08fam.NAOK == 'H' or A08fam.NAOK == 'M')	Comments (optional), by property		en		N	N											
+SQ		P1a	1	P1a Exact nesting		en														
+SQ		P1b	1	P1b Approximate hierarchy		en														
+SQ		P2	1	P2 Raster alignment		en														
+SQ		P3	1	P3 Prefix geocode		en														
+SQ		P4	1	P4 Uniform neighbourhood		en														
+SQ		P5	1	P5 Congruent orientation		en														
+SQ		P6	1	P6 Compactness		en														
+SQ		P7	1	P7 Interval subpaving		en														
+SQ		P8	1	P8 Cartographic legacy		en														
+G	11	2C · A09 · Emergency services	1	<p>Location of calls and analysis of the coverage of fire brigades, ambulances, civil defence and police.</p>		en														
+Q	L	A09fam	1	Your familiarity with this application		en		Y	N											
+A	0	H		high		en														
+A	0	M		medium		en														
+A	0	L		low (move on to the next application)		en														
+Q	F	A09rel	(A09fam.NAOK == 'H' or A09fam.NAOK == 'M')	Relevance of each property to this application		en		N	N											30
+SQ		P1a	1	P1a Exact nesting		en														
+SQ		P1b	1	P1b Approximate hierarchy		en														
+SQ		P2	1	P2 Raster alignment		en														
+SQ		P3	1	P3 Prefix geocode		en														
+SQ		P4	1	P4 Uniform neighbourhood		en														
+SQ		P5	1	P5 Congruent orientation		en														
+SQ		P6	1	P6 Compactness		en														
+SQ		P7	1	P7 Interval subpaving		en														
+SQ		P8	1	P8 Cartographic legacy		en														
+A	0	R0		0 · irrelevant		en														
+A	0	R1		1 · desirable		en														
+A	0	R2		2 · important		en														
+A	0	R3		3 · essential		en														
+Q	Q	A09com	(A09fam.NAOK == 'H' or A09fam.NAOK == 'M')	Comments (optional), by property		en		N	N											
+SQ		P1a	1	P1a Exact nesting		en														
+SQ		P1b	1	P1b Approximate hierarchy		en														
+SQ		P2	1	P2 Raster alignment		en														
+SQ		P3	1	P3 Prefix geocode		en														
+SQ		P4	1	P4 Uniform neighbourhood		en														
+SQ		P5	1	P5 Congruent orientation		en														
+SQ		P6	1	P6 Compactness		en														
+SQ		P7	1	P7 Interval subpaving		en														
+SQ		P8	1	P8 Cartographic legacy		en														
+G	12	2C · A10 · Demarcation by inner cover	1	<p>Representation of a parcel or boundary as three sets of cells: certainly inside, undetermined boundary and certainly outside. The inner core can be registered as undisputed, and the most costly analysis is confined to the boundary fringe.</p>		en														
+Q	L	A10fam	1	Your familiarity with this application		en		Y	N											
+A	0	H		high		en														
+A	0	M		medium		en														
+A	0	L		low (move on to the next application)		en														
+Q	F	A10rel	(A10fam.NAOK == 'H' or A10fam.NAOK == 'M')	Relevance of each property to this application		en		N	N											30
+SQ		P1a	1	P1a Exact nesting		en														
+SQ		P1b	1	P1b Approximate hierarchy		en														
+SQ		P2	1	P2 Raster alignment		en														
+SQ		P3	1	P3 Prefix geocode		en														
+SQ		P4	1	P4 Uniform neighbourhood		en														
+SQ		P5	1	P5 Congruent orientation		en														
+SQ		P6	1	P6 Compactness		en														
+SQ		P7	1	P7 Interval subpaving		en														
+SQ		P8	1	P8 Cartographic legacy		en														
+A	0	R0		0 · irrelevant		en														
+A	0	R1		1 · desirable		en														
+A	0	R2		2 · important		en														
+A	0	R3		3 · essential		en														
+Q	Q	A10com	(A10fam.NAOK == 'H' or A10fam.NAOK == 'M')	Comments (optional), by property		en		N	N											
+SQ		P1a	1	P1a Exact nesting		en														
+SQ		P1b	1	P1b Approximate hierarchy		en														
+SQ		P2	1	P2 Raster alignment		en														
+SQ		P3	1	P3 Prefix geocode		en														
+SQ		P4	1	P4 Uniform neighbourhood		en														
+SQ		P5	1	P5 Congruent orientation		en														
+SQ		P6	1	P6 Compactness		en														
+SQ		P7	1	P7 Interval subpaving		en														
+SQ		P8	1	P8 Cartographic legacy		en														
+G	13	2C · A11 · Cadastral overlap detection	1	<p>Comparison, at national scale, of the inner covers of distinct parcels. Any intersection indicates an inconsistency in titles or surveys.</p>		en														
+Q	L	A11fam	1	Your familiarity with this application		en		Y	N											
+A	0	H		high		en														
+A	0	M		medium		en														
+A	0	L		low (move on to the next application)		en														
+Q	F	A11rel	(A11fam.NAOK == 'H' or A11fam.NAOK == 'M')	Relevance of each property to this application		en		N	N											30
+SQ		P1a	1	P1a Exact nesting		en														
+SQ		P1b	1	P1b Approximate hierarchy		en														
+SQ		P2	1	P2 Raster alignment		en														
+SQ		P3	1	P3 Prefix geocode		en														
+SQ		P4	1	P4 Uniform neighbourhood		en														
+SQ		P5	1	P5 Congruent orientation		en														
+SQ		P6	1	P6 Compactness		en														
+SQ		P7	1	P7 Interval subpaving		en														
+SQ		P8	1	P8 Cartographic legacy		en														
+A	0	R0		0 · irrelevant		en														
+A	0	R1		1 · desirable		en														
+A	0	R2		2 · important		en														
+A	0	R3		3 · essential		en														
+Q	Q	A11com	(A11fam.NAOK == 'H' or A11fam.NAOK == 'M')	Comments (optional), by property		en		N	N											
+SQ		P1a	1	P1a Exact nesting		en														
+SQ		P1b	1	P1b Approximate hierarchy		en														
+SQ		P2	1	P2 Raster alignment		en														
+SQ		P3	1	P3 Prefix geocode		en														
+SQ		P4	1	P4 Uniform neighbourhood		en														
+SQ		P5	1	P5 Congruent orientation		en														
+SQ		P6	1	P6 Compactness		en														
+SQ		P7	1	P7 Interval subpaving		en														
+SQ		P8	1	P8 Cartographic legacy		en														
+G	14	2C · A12 · Data federation	1	<p>Use of the cell code as a common key across cadastres, statistics, environmental data and addressing, with each agency keeping its own database and its own confidentiality.</p>		en														
+Q	L	A12fam	1	Your familiarity with this application		en		Y	N											
+A	0	H		high		en														
+A	0	M		medium		en														
+A	0	L		low (move on to the next application)		en														
+Q	F	A12rel	(A12fam.NAOK == 'H' or A12fam.NAOK == 'M')	Relevance of each property to this application		en		N	N											30
+SQ		P1a	1	P1a Exact nesting		en														
+SQ		P1b	1	P1b Approximate hierarchy		en														
+SQ		P2	1	P2 Raster alignment		en														
+SQ		P3	1	P3 Prefix geocode		en														
+SQ		P4	1	P4 Uniform neighbourhood		en														
+SQ		P5	1	P5 Congruent orientation		en														
+SQ		P6	1	P6 Compactness		en														
+SQ		P7	1	P7 Interval subpaving		en														
+SQ		P8	1	P8 Cartographic legacy		en														
+A	0	R0		0 · irrelevant		en														
+A	0	R1		1 · desirable		en														
+A	0	R2		2 · important		en														
+A	0	R3		3 · essential		en														
+Q	Q	A12com	(A12fam.NAOK == 'H' or A12fam.NAOK == 'M')	Comments (optional), by property		en		N	N											
+SQ		P1a	1	P1a Exact nesting		en														
+SQ		P1b	1	P1b Approximate hierarchy		en														
+SQ		P2	1	P2 Raster alignment		en														
+SQ		P3	1	P3 Prefix geocode		en														
+SQ		P4	1	P4 Uniform neighbourhood		en														
+SQ		P5	1	P5 Congruent orientation		en														
+SQ		P6	1	P6 Compactness		en														
+SQ		P7	1	P7 Interval subpaving		en														
+SQ		P8	1	P8 Cartographic legacy		en														
+G	15	2C · A13 · Distributed partitioning	1	<p>Organisation of storage and institutional responsibility by territorial subdivisions, based on code prefixes.</p>		en														
+Q	L	A13fam	1	Your familiarity with this application		en		Y	N											
+A	0	H		high		en														
+A	0	M		medium		en														
+A	0	L		low (move on to the next application)		en														
+Q	F	A13rel	(A13fam.NAOK == 'H' or A13fam.NAOK == 'M')	Relevance of each property to this application		en		N	N											30
+SQ		P1a	1	P1a Exact nesting		en														
+SQ		P1b	1	P1b Approximate hierarchy		en														
+SQ		P2	1	P2 Raster alignment		en														
+SQ		P3	1	P3 Prefix geocode		en														
+SQ		P4	1	P4 Uniform neighbourhood		en														
+SQ		P5	1	P5 Congruent orientation		en														
+SQ		P6	1	P6 Compactness		en														
+SQ		P7	1	P7 Interval subpaving		en														
+SQ		P8	1	P8 Cartographic legacy		en														
+A	0	R0		0 · irrelevant		en														
+A	0	R1		1 · desirable		en														
+A	0	R2		2 · important		en														
+A	0	R3		3 · essential		en														
+Q	Q	A13com	(A13fam.NAOK == 'H' or A13fam.NAOK == 'M')	Comments (optional), by property		en		N	N											
+SQ		P1a	1	P1a Exact nesting		en														
+SQ		P1b	1	P1b Approximate hierarchy		en														
+SQ		P2	1	P2 Raster alignment		en														
+SQ		P3	1	P3 Prefix geocode		en														
+SQ		P4	1	P4 Uniform neighbourhood		en														
+SQ		P5	1	P5 Congruent orientation		en														
+SQ		P6	1	P6 Compactness		en														
+SQ		P7	1	P7 Interval subpaving		en														
+SQ		P8	1	P8 Cartographic legacy		en														
+G	16	2C · A14 · Risk triage	1	<p>Rapid screening of areas exposed to disasters, environmental risks or irregularities, to prioritise detailed analyses.</p>		en														
+Q	L	A14fam	1	Your familiarity with this application		en		Y	N											
+A	0	H		high		en														
+A	0	M		medium		en														
+A	0	L		low (move on to the next application)		en														
+Q	F	A14rel	(A14fam.NAOK == 'H' or A14fam.NAOK == 'M')	Relevance of each property to this application		en		N	N											30
+SQ		P1a	1	P1a Exact nesting		en														
+SQ		P1b	1	P1b Approximate hierarchy		en														
+SQ		P2	1	P2 Raster alignment		en														
+SQ		P3	1	P3 Prefix geocode		en														
+SQ		P4	1	P4 Uniform neighbourhood		en														
+SQ		P5	1	P5 Congruent orientation		en														
+SQ		P6	1	P6 Compactness		en														
+SQ		P7	1	P7 Interval subpaving		en														
+SQ		P8	1	P8 Cartographic legacy		en														
+A	0	R0		0 · irrelevant		en														
+A	0	R1		1 · desirable		en														
+A	0	R2		2 · important		en														
+A	0	R3		3 · essential		en														
+Q	Q	A14com	(A14fam.NAOK == 'H' or A14fam.NAOK == 'M')	Comments (optional), by property		en		N	N											
+SQ		P1a	1	P1a Exact nesting		en														
+SQ		P1b	1	P1b Approximate hierarchy		en														
+SQ		P2	1	P2 Raster alignment		en														
+SQ		P3	1	P3 Prefix geocode		en														
+SQ		P4	1	P4 Uniform neighbourhood		en														
+SQ		P5	1	P5 Congruent orientation		en														
+SQ		P6	1	P6 Compactness		en														
+SQ		P7	1	P7 Interval subpaving		en														
+SQ		P8	1	P8 Cartographic legacy		en														
+G	17	2D — Requirement of exact nesting	1	<p>Some applications produce results with legal or accounting effect, or depend on a unique key. In them, a grid without exact nesting (P1a) may be inadmissible, whatever its performance on the other criteria.</p><p>For each application, state whether it <strong>requires</strong> exact nesting, that is, whether a merely approximate hierarchy would make it unworkable, and not just worse. Only the applications for which you declared high or medium familiarity are shown below.</p>		en														
+Q	F	NEST	1	Does the application require exact nesting?		en		N	N											50
+SQ		A01	(A01fam.NAOK == 'H' or A01fam.NAOK == 'M')	A01 Official statistics and disclosure control		en														
+SQ		A02	(A02fam.NAOK == 'H' or A02fam.NAOK == 'M')	A02 Inter-census comparability		en														
+SQ		A03	(A03fam.NAOK == 'H' or A03fam.NAOK == 'M')	A03 Remote sensing		en														
+SQ		A04	(A04fam.NAOK == 'H' or A04fam.NAOK == 'M')	A04 Environmental and rural land registries		en														
+SQ		A05	(A05fam.NAOK == 'H' or A05fam.NAOK == 'M')	A05 Municipal and sectoral indicators		en														
+SQ		A06	(A06fam.NAOK == 'H' or A06fam.NAOK == 'M')	A06 Epidemiological surveillance		en														
+SQ		A07	(A07fam.NAOK == 'H' or A07fam.NAOK == 'M')	A07 Addressing and postal codes		en														
+SQ		A08	(A08fam.NAOK == 'H' or A08fam.NAOK == 'M')	A08 Logistics and mobility		en														
+SQ		A09	(A09fam.NAOK == 'H' or A09fam.NAOK == 'M')	A09 Emergency services		en														
+SQ		A10	(A10fam.NAOK == 'H' or A10fam.NAOK == 'M')	A10 Demarcation by inner cover		en														
+SQ		A11	(A11fam.NAOK == 'H' or A11fam.NAOK == 'M')	A11 Cadastral overlap detection		en														
+SQ		A12	(A12fam.NAOK == 'H' or A12fam.NAOK == 'M')	A12 Data federation		en														
+SQ		A13	(A13fam.NAOK == 'H' or A13fam.NAOK == 'M')	A13 Distributed partitioning		en														
+SQ		A14	(A14fam.NAOK == 'H' or A14fam.NAOK == 'M')	A14 Risk triage		en														
+A	0	Y		yes		en														
+A	0	N		no		en														
+A	0	U		don't know		en														
+Q	Q	NESTj	1	Justifications (optional), by application		en		N	N											
+SQ		A01	(A01fam.NAOK == 'H' or A01fam.NAOK == 'M')	A01 Official statistics and disclosure control		en														
+SQ		A02	(A02fam.NAOK == 'H' or A02fam.NAOK == 'M')	A02 Inter-census comparability		en														
+SQ		A03	(A03fam.NAOK == 'H' or A03fam.NAOK == 'M')	A03 Remote sensing		en														
+SQ		A04	(A04fam.NAOK == 'H' or A04fam.NAOK == 'M')	A04 Environmental and rural land registries		en														
+SQ		A05	(A05fam.NAOK == 'H' or A05fam.NAOK == 'M')	A05 Municipal and sectoral indicators		en														
+SQ		A06	(A06fam.NAOK == 'H' or A06fam.NAOK == 'M')	A06 Epidemiological surveillance		en														
+SQ		A07	(A07fam.NAOK == 'H' or A07fam.NAOK == 'M')	A07 Addressing and postal codes		en														
+SQ		A08	(A08fam.NAOK == 'H' or A08fam.NAOK == 'M')	A08 Logistics and mobility		en														
+SQ		A09	(A09fam.NAOK == 'H' or A09fam.NAOK == 'M')	A09 Emergency services		en														
+SQ		A10	(A10fam.NAOK == 'H' or A10fam.NAOK == 'M')	A10 Demarcation by inner cover		en														
+SQ		A11	(A11fam.NAOK == 'H' or A11fam.NAOK == 'M')	A11 Cadastral overlap detection		en														
+SQ		A12	(A12fam.NAOK == 'H' or A12fam.NAOK == 'M')	A12 Data federation		en														
+SQ		A13	(A13fam.NAOK == 'H' or A13fam.NAOK == 'M')	A13 Distributed partitioning		en														
+SQ		A14	(A14fam.NAOK == 'H' or A14fam.NAOK == 'M')	A14 Risk triage		en														
+G	18	2E — Proposals	1	<p>The assessment is only reliable if it represents the needs of all users well. <strong>Applications in which neighbourhood, distance or the roundness of cells are decisive are explicitly welcome.</strong> Proposals will be submitted to the whole panel in the next round.</p>		en														
+Q	T	NEWA	1	<strong>2E1. Missing applications.</strong> For each: name, short description, institutional users and the properties you consider decisive.		en		N	N										6	
+Q	T	NEED	1	<strong>2E2. Needs not covered.</strong> Is any practical requirement of your applications not represented by properties P1a to P8? Describe it in terms of use; the geometry panel will translate it into a property, if appropriate.		en		N	N										6	
+Q	T	DEFA	1	<strong>2E3. Is any application in the list poorly defined, duplicated, or should it be split?</strong>		en		N	N										6	
+Q	T	COMM	1	<strong>2E4. Other comments, including on possible biases in the design of this consultation</strong>		en		N	N										6	

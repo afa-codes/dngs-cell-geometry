@@ -1,0 +1,7 @@
+respondent_id,group,application_id,requires_exact_nesting,justification
+R001,remote-sensing,A06,unknown,Efeito jurídico (teste).
+R001,remote-sensing,A09,no,
+R001,remote-sensing,A10,unknown,
+R001,remote-sensing,A11,unknown,
+R001,remote-sensing,A12,unknown,
+R001,remote-sensing,A13,unknown,

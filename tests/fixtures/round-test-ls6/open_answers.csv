@@ -1,0 +1,4 @@
+respondent_id,panel,group,item,text
+R001,geometry,computational-geometry,1D1,Objeção de teste à nota P7 do triângulo.
+R001,geometry,computational-geometry,1E2,Propriedade proposta: isotropia de distâncias (teste).
+R001,applications,remote-sensing,2E2,Distâncias de cobertura isotrópicas (teste).
